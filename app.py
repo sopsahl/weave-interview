@@ -16,14 +16,14 @@ import plotly.express as px
 # Metric metadata
 # ---------------------------------------------------------------------------
 METRIC_INFO = {
-    "reviews_given": ("Reviews Given", "Number of pull request reviews submitted on others' PRs"),
-    "review_comments": ("Review Comments", "Reviews that included substantive written feedback"),
-    "approvals_given": ("Approvals Given", "Number of PRs explicitly approved"),
+    "reviews_given": ("Reviews Given", "Number of pull request reviews submitted on others' PRs (any review state: approved, changes requested, or commented)"),
+    "review_comments": ("Review Comments", "Reviews that included written feedback (threshold: review body length > 0 characters)"),
+    "approvals_given": ("Approvals Given", "Number of PRs explicitly approved (review state = APPROVED)"),
     "unique_prs_reviewed": ("Unique PRs Reviewed", "Distinct pull requests reviewed (breadth of review coverage)"),
-    "bug_fix_prs": ("Bug Fixes", "PRs with fix: prefix indicating bug resolution"),
-    "issues_involved": ("Issues Involved", "GitHub issues authored or assigned to"),
-    "unique_areas_touched": ("Areas Touched", "Distinct codebase areas modified (from PR scope tags)"),
-    "chore_prs": ("Maintenance PRs", "PRs with chore: prefix (dependency updates, cleanup, etc.)"),
+    "bug_fix_prs": ("Bug Fixes", "PRs with title starting with 'fix:' or 'fix(' — conventional commit prefix indicating bug resolution"),
+    "issues_involved": ("Issues Involved", "GitHub issues where the engineer is the author or an assignee"),
+    "unique_areas_touched": ("Areas Touched", "Distinct codebase areas modified, extracted from PR title scope tags like feat(scope): or fix(scope):"),
+    "chore_prs": ("Maintenance PRs", "PRs with title starting with 'chore:' or 'chore(' — dependency updates, cleanup, etc."),
     "prs_merged": ("PRs Merged", "Total pull requests merged in the period"),
     "total_additions": ("Lines Added", "Total lines of code added across all PRs"),
     "total_deletions": ("Lines Removed", "Total lines of code removed across all PRs"),
@@ -195,13 +195,43 @@ if raw_sum != 100:
         f"Output {nw['output']:.0%}"
     )
 
-# Recompute composite scores with current weights and re-sort
+# ---------------------------------------------------------------------------
+# Section 2b: Metric weight sliders within each category
+# ---------------------------------------------------------------------------
+default_mw = data["metric_weights"]
+
+with st.expander("Fine-Tune Metric Weights Within Categories"):
+    st.caption("Adjust how individual metrics contribute within each category. Values auto-normalize per category.")
+    mw_cols = st.columns(3)
+    metric_weights_user = {}
+
+    for col_idx, (cat, metrics) in enumerate(CATEGORY_METRICS.items()):
+        with mw_cols[col_idx]:
+            color = CATEGORY_COLORS[cat]
+            st.markdown(f"<span style='color:{color};font-weight:bold'>{cat.title()}</span>", unsafe_allow_html=True)
+            raw_mw = {}
+            for m in metrics:
+                display_name = METRIC_INFO[m][0]
+                default_val = int(default_mw[cat][m] * 100)
+                raw_mw[m] = st.slider(display_name, 0, 100, default_val, key=f"mw_{cat}_{m}")
+            mw_sum = sum(raw_mw.values())
+            if mw_sum == 0:
+                metric_weights_user[cat] = {m: 1.0 / len(metrics) for m in metrics}
+            else:
+                metric_weights_user[cat] = {m: v / mw_sum for m, v in raw_mw.items()}
+
+# Recompute category scores from normalized metrics using user-adjusted metric weights,
+# then composite scores using category weights
 for eng in all_engineers:
-    cs = eng["category_scores"]
+    nm = eng["normalized_metrics"]
+    cat_scores = {}
+    for cat, weights in metric_weights_user.items():
+        cat_scores[cat] = round(sum(nm[m] * w for m, w in weights.items()), 6)
+    eng["category_scores"] = cat_scores
     eng["composite_score"] = round(
-        nw["collaboration"] * cs["collaboration"]
-        + nw["ownership"] * cs["ownership"]
-        + nw["output"] * cs["output"],
+        nw["collaboration"] * cat_scores["collaboration"]
+        + nw["ownership"] * cat_scores["ownership"]
+        + nw["output"] * cat_scores["output"],
         4,
     )
 
@@ -231,13 +261,14 @@ with left:
 
     # Mini sparkline-style category indicators for the selected engineer
     sel = top5[selected_index]
+    CATEGORY_SHORT = {"collaboration": "Collab", "ownership": "Own", "output": "Output"}
     spark_cols = st.columns(3)
     for idx, cat in enumerate(["collaboration", "ownership", "output"]):
         val = sel["category_scores"][cat]
         color = CATEGORY_COLORS[cat]
         spark_cols[idx].markdown(
             f"<div style='text-align:center'>"
-            f"<span style='color:{color};font-weight:bold'>{cat.title()[:5]}</span><br>"
+            f"<span style='color:{color};font-weight:bold;font-size:0.85rem'>{CATEGORY_SHORT[cat]}</span><br>"
             f"<span style='font-size:1.3rem;color:{color}'>{val:.2f}</span>"
             f"</div>",
             unsafe_allow_html=True,
@@ -352,7 +383,66 @@ for col, (category, metrics) in zip(cat_cols, CATEGORY_METRICS.items()):
 st.divider()
 
 # ---------------------------------------------------------------------------
-# Section 5: Methodology
+# Section 5: Impact Over Time (top 10 engineers)
+# ---------------------------------------------------------------------------
+time_series = data.get("time_series")
+if time_series:
+    st.subheader("Impact Trajectory — Top 10 Engineers Over 90 Days")
+    st.caption("Cumulative composite scores at biweekly checkpoints, recomputed with your current weight settings.")
+
+    fig_ts = go.Figure()
+    ts_colors = [
+        "#FF6B6B", "#4ECDC4", "#45B7D1", "#FFA07A", "#98D8C8",
+        "#F7DC6F", "#BB8FCE", "#85C1E9", "#F1948A", "#82E0AA",
+    ]
+    for i, (login, points) in enumerate(time_series.items()):
+        dates = []
+        scores = []
+        for p in points:
+            dates.append(p["date"])
+            nm = p.get("normalized_metrics")
+            if nm is None:
+                scores.append(0)
+            else:
+                # Recompute using current user-selected metric + category weights
+                cat_scores = {}
+                for cat, mw in metric_weights_user.items():
+                    cat_scores[cat] = sum(nm.get(m, 0) * w for m, w in mw.items())
+                composite = sum(cat_scores[c] * nw[c] for c in nw)
+                scores.append(round(composite, 4))
+
+        is_selected = login == selected_login
+        fig_ts.add_trace(go.Scatter(
+            x=dates,
+            y=scores,
+            mode="lines+markers",
+            name=login,
+            line=dict(
+                color=ts_colors[i % len(ts_colors)],
+                width=4 if is_selected else 2,
+            ),
+            marker=dict(size=8 if is_selected else 4),
+            opacity=1.0 if is_selected else 0.5,
+            hovertemplate=f"{login}<br>%{{x}}<br>Score: %{{y:.3f}}<extra></extra>",
+        ))
+
+    fig_ts.update_layout(
+        height=400,
+        margin=dict(l=0, r=20, t=10, b=30),
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font_color="white",
+        xaxis=dict(title="Date", gridcolor="rgba(255,255,255,0.1)"),
+        yaxis=dict(title="Composite Score", gridcolor="rgba(255,255,255,0.1)"),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="center", x=0.5),
+        hovermode="x unified",
+    )
+    st.plotly_chart(fig_ts, use_container_width=True)
+
+st.divider()
+
+# ---------------------------------------------------------------------------
+# Section 6: Methodology
 # ---------------------------------------------------------------------------
 with st.expander("How Scores Are Calculated"):
     st.markdown("""
@@ -360,35 +450,33 @@ with st.expander("How Scores Are Calculated"):
 
 Every engineer is evaluated across three categories, each capturing a different facet of impact:
 
-| Category | What it measures |
-|---|---|
-| **Collaboration** | How actively an engineer reviews and supports teammates' work |
-| **Ownership** | Responsibility for bug fixes, issue triage, breadth of codebase involvement, and maintenance |
-| **Output** | Volume and efficiency of code contributions |
+| Category | What it measures | Metrics |
+|---|---|---|
+| **Collaboration** | How actively an engineer reviews and supports teammates' work | Reviews Given, Review Comments, Approvals Given, Unique PRs Reviewed |
+| **Ownership** | Responsibility for bug fixes, issue triage, breadth of codebase involvement, and maintenance | Bug Fixes, Issues Involved, Areas Touched, Maintenance PRs |
+| **Output** | Volume and efficiency of code contributions | PRs Merged, Lines Added, Lines Removed, Avg PR Size |
 
-**Metric Weights Within Each Category**
+**How Scoring Works**
 
-Each category is a weighted sum of its constituent metrics (normalized values):
-""")
+1. **Raw metrics** are computed for each engineer from GitHub PR and issue data.
+2. **Min-max normalization** scales each metric across all qualifying engineers so the highest value maps to 1.0 and the lowest to 0.0.
+3. **Category scores** are the weighted sum of normalized metrics within each category. Default metric weights are shown in the "Fine-Tune Metric Weights" expander and can be adjusted with sliders.
+4. **Composite score** is the weighted sum of the three category scores, using the category weight sliders (default: 35% Collaboration / 30% Ownership / 35% Output).
 
-    mw = data["metric_weights"]
-    for cat, weights in mw.items():
-        st.markdown(f"*{cat.title()}*")
-        rows = "| Metric | Weight |\n|---|---|\n"
-        for m, w in weights.items():
-            rows += f"| {METRIC_INFO[m][0]} | {w:.0%} |\n"
-        st.markdown(rows)
+All weights auto-normalize, so you can move sliders freely without worrying about them summing to 100%.
 
-    st.markdown("""
-**Normalization**
+**Metric Thresholds & Definitions**
 
-All raw metrics are min-max normalized across qualifying engineers so that the highest value maps to 1.0 and the lowest to 0.0. This puts every metric on a comparable scale before weighting.
+- **Review Comments**: A review counts as having a comment if the review body length is > 0 characters (i.e., any written feedback beyond just an approval click).
+- **Bug Fixes / Maintenance PRs**: Identified by the PR title starting with `fix:` / `fix(` or `chore:` / `chore(` respectively (conventional commit prefixes).
+- **Areas Touched**: Extracted from conventional commit scope tags in PR titles, e.g., `feat(surveys):` counts "surveys" as an area.
+- **Issues Involved**: Engineer is either the issue author or listed as an assignee.
 
 **Minimum PR Threshold**
 
-Only engineers with at least **5 merged PRs** in the period are included. This filters out drive-by contributors and ensures the scores reflect sustained activity.
+Only engineers with at least **5 merged PRs** in the 90-day period are included. This filters out drive-by contributors and ensures scores reflect sustained activity.
 
-**Category Weight Sliders**
+**Impact Trajectory**
 
-The sliders at the top of this dashboard let you adjust how much each category contributes to the final composite score. The three weights are automatically normalized to sum to 100%, so you can freely move them without worrying about the math. The default split is 35% Collaboration / 30% Ownership / 35% Output.
+The time-series chart shows how each top-10 engineer's cumulative composite score evolved over biweekly checkpoints. Scores are recomputed at each checkpoint using only data available up to that date, with min-max normalization applied at each snapshot. The trajectory updates live when you change weight sliders.
 """)

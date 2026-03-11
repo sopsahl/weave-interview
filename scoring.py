@@ -202,6 +202,57 @@ def main():
     # Sort by composite score descending
     engineers_output.sort(key=lambda x: x["composite_score"], reverse=True)
 
+    # -----------------------------------------------------------------------
+    # Time-series: compute cumulative scores at biweekly checkpoints
+    # -----------------------------------------------------------------------
+    from datetime import datetime, timedelta
+
+    checkpoints = []
+    start_date = datetime(2025, 12, 11)
+    end_date = datetime(2026, 3, 11)
+    d = start_date + timedelta(days=14)
+    while d <= end_date:
+        checkpoints.append(d.strftime("%Y-%m-%d"))
+        d += timedelta(days=14)
+    checkpoints.append(end_date.strftime("%Y-%m-%d"))
+    # deduplicate and sort
+    checkpoints = sorted(set(checkpoints))
+
+    # Get top 10 logins from the full-period ranking
+    top10_logins = [e["login"] for e in engineers_output[:10]]
+
+    time_series = {login: [] for login in top10_logins}
+
+    for cp in checkpoints:
+        # Filter PRs and issues up to this checkpoint
+        cp_prs = [pr for pr in prs if pr.get("mergedAt", "")[:10] <= cp]
+        cp_issues = [iss for iss in issues if iss.get("closedAt", "")[:10] <= cp]
+
+        cp_metrics = compute_raw_metrics(cp_prs, cp_issues)
+        # Only normalize among engineers with >= 3 PRs at this checkpoint (looser for partial windows)
+        cp_qualifying = {k: v for k, v in cp_metrics.items() if v["prs_merged"] >= 3}
+
+        if not cp_qualifying:
+            for login in top10_logins:
+                time_series[login].append({"date": cp, "normalized_metrics": None})
+            continue
+
+        # Normalize
+        cp_normalized = {login: {} for login in cp_qualifying}
+        for metric_name in all_metric_names:
+            nv = min_max_normalize(cp_qualifying, metric_name)
+            for login, val in nv.items():
+                cp_normalized[login][metric_name] = val
+
+        # Store normalized metrics for top 10 so app.py can recompute with user weights
+        for login in top10_logins:
+            if login not in cp_qualifying:
+                time_series[login].append({"date": cp, "normalized_metrics": None})
+            else:
+                time_series[login].append({"date": cp, "normalized_metrics": cp_normalized[login]})
+
+    print(f"Computed time series for {len(checkpoints)} checkpoints")
+
     output = {
         "metadata": {
             "date_range": "2025-12-11 to 2026-03-11",
@@ -213,6 +264,7 @@ def main():
         "metric_weights": METRIC_WEIGHTS,
         "default_category_weights": DEFAULT_CATEGORY_WEIGHTS,
         "engineers": engineers_output,
+        "time_series": time_series,
     }
 
     with open("data/scored_engineers.json", "w") as f:

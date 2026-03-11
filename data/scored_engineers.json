@@ -4065,5 +4065,1204 @@
       },
       "composite_score": 0.004318
     }
-  ]
+  ],
+  "time_series": {
+    "webjunkie": [
+      {
+        "date": "2025-12-25",
+        "normalized_metrics": {
+          "prs_merged": 0.785714,
+          "total_additions": 0.665194,
+          "total_deletions": 0.129214,
+          "avg_pr_size": 0.264513,
+          "reviews_given": 0.263158,
+          "review_comments": 0.190476,
+          "approvals_given": 0.342857,
+          "unique_prs_reviewed": 0.302326,
+          "bug_fix_prs": 1.0,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 1.0,
+          "chore_prs": 0.428571
+        }
+      },
+      {
+        "date": "2026-01-08",
+        "normalized_metrics": {
+          "prs_merged": 0.894737,
+          "total_additions": 1.0,
+          "total_deletions": 0.827628,
+          "avg_pr_size": 1.0,
+          "reviews_given": 0.198198,
+          "review_comments": 0.15,
+          "approvals_given": 0.239437,
+          "unique_prs_reviewed": 0.246914,
+          "bug_fix_prs": 0.925926,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 1.0,
+          "chore_prs": 0.625
+        }
+      },
+      {
+        "date": "2026-01-22",
+        "normalized_metrics": {
+          "prs_merged": 0.746269,
+          "total_additions": 1.0,
+          "total_deletions": 0.513718,
+          "avg_pr_size": 0.599229,
+          "reviews_given": 0.241935,
+          "review_comments": 0.157143,
+          "approvals_given": 0.291667,
+          "unique_prs_reviewed": 0.288889,
+          "bug_fix_prs": 0.761905,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.823529,
+          "chore_prs": 0.772727
+        }
+      },
+      {
+        "date": "2026-02-05",
+        "normalized_metrics": {
+          "prs_merged": 0.679612,
+          "total_additions": 1.0,
+          "total_deletions": 1.0,
+          "avg_pr_size": 0.466216,
+          "reviews_given": 0.314741,
+          "review_comments": 0.25,
+          "approvals_given": 0.370588,
+          "unique_prs_reviewed": 0.365591,
+          "bug_fix_prs": 0.455696,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 1.0,
+          "chore_prs": 0.933333
+        }
+      },
+      {
+        "date": "2026-02-19",
+        "normalized_metrics": {
+          "prs_merged": 0.652778,
+          "total_additions": 1.0,
+          "total_deletions": 1.0,
+          "avg_pr_size": 0.782225,
+          "reviews_given": 0.38141,
+          "review_comments": 0.298246,
+          "approvals_given": 0.46729,
+          "unique_prs_reviewed": 0.462882,
+          "bug_fix_prs": 0.375,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 1.0,
+          "chore_prs": 1.0
+        }
+      },
+      {
+        "date": "2026-03-05",
+        "normalized_metrics": {
+          "prs_merged": 0.581152,
+          "total_additions": 1.0,
+          "total_deletions": 1.0,
+          "avg_pr_size": 0.625169,
+          "reviews_given": 0.413978,
+          "review_comments": 0.303704,
+          "approvals_given": 0.519531,
+          "unique_prs_reviewed": 0.514706,
+          "bug_fix_prs": 0.343284,
+          "issues_involved": 0.038462,
+          "unique_areas_touched": 1.0,
+          "chore_prs": 0.913793
+        }
+      },
+      {
+        "date": "2026-03-11",
+        "normalized_metrics": {
+          "prs_merged": 0.628019,
+          "total_additions": 1.0,
+          "total_deletions": 1.0,
+          "avg_pr_size": 0.352337,
+          "reviews_given": 0.426267,
+          "review_comments": 0.305195,
+          "approvals_given": 0.565371,
+          "unique_prs_reviewed": 0.558528,
+          "bug_fix_prs": 0.370629,
+          "issues_involved": 0.035714,
+          "unique_areas_touched": 1.0,
+          "chore_prs": 0.953846
+        }
+      }
+    ],
+    "rafaeelaudibert": [
+      {
+        "date": "2025-12-25",
+        "normalized_metrics": {
+          "prs_merged": 0.714286,
+          "total_additions": 1.0,
+          "total_deletions": 0.572516,
+          "avg_pr_size": 0.619326,
+          "reviews_given": 1.0,
+          "review_comments": 1.0,
+          "approvals_given": 1.0,
+          "unique_prs_reviewed": 1.0,
+          "bug_fix_prs": 0.111111,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.111111,
+          "chore_prs": 0.214286
+        }
+      },
+      {
+        "date": "2026-01-08",
+        "normalized_metrics": {
+          "prs_merged": 0.815789,
+          "total_additions": 0.495721,
+          "total_deletions": 0.768662,
+          "avg_pr_size": 0.618997,
+          "reviews_given": 1.0,
+          "review_comments": 1.0,
+          "approvals_given": 1.0,
+          "unique_prs_reviewed": 1.0,
+          "bug_fix_prs": 0.074074,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.083333,
+          "chore_prs": 0.25
+        }
+      },
+      {
+        "date": "2026-01-22",
+        "normalized_metrics": {
+          "prs_merged": 0.761194,
+          "total_additions": 0.391034,
+          "total_deletions": 0.361907,
+          "avg_pr_size": 0.264155,
+          "reviews_given": 1.0,
+          "review_comments": 1.0,
+          "approvals_given": 1.0,
+          "unique_prs_reviewed": 1.0,
+          "bug_fix_prs": 0.190476,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.058824,
+          "chore_prs": 0.318182
+        }
+      },
+      {
+        "date": "2026-02-05",
+        "normalized_metrics": {
+          "prs_merged": 0.76699,
+          "total_additions": 0.500696,
+          "total_deletions": 0.767566,
+          "avg_pr_size": 0.241299,
+          "reviews_given": 1.0,
+          "review_comments": 1.0,
+          "approvals_given": 1.0,
+          "unique_prs_reviewed": 1.0,
+          "bug_fix_prs": 0.189873,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.05,
+          "chore_prs": 0.3
+        }
+      },
+      {
+        "date": "2026-02-19",
+        "normalized_metrics": {
+          "prs_merged": 0.791667,
+          "total_additions": 0.584993,
+          "total_deletions": 0.754677,
+          "avg_pr_size": 0.41663,
+          "reviews_given": 1.0,
+          "review_comments": 1.0,
+          "approvals_given": 1.0,
+          "unique_prs_reviewed": 1.0,
+          "bug_fix_prs": 0.192308,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.08,
+          "chore_prs": 0.318182
+        }
+      },
+      {
+        "date": "2026-03-05",
+        "normalized_metrics": {
+          "prs_merged": 0.659686,
+          "total_additions": 0.651422,
+          "total_deletions": 0.778414,
+          "avg_pr_size": 0.383468,
+          "reviews_given": 1.0,
+          "review_comments": 1.0,
+          "approvals_given": 1.0,
+          "unique_prs_reviewed": 1.0,
+          "bug_fix_prs": 0.179104,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.071429,
+          "chore_prs": 0.258621
+        }
+      },
+      {
+        "date": "2026-03-11",
+        "normalized_metrics": {
+          "prs_merged": 0.681159,
+          "total_additions": 0.500381,
+          "total_deletions": 0.574855,
+          "avg_pr_size": 0.170575,
+          "reviews_given": 1.0,
+          "review_comments": 1.0,
+          "approvals_given": 1.0,
+          "unique_prs_reviewed": 1.0,
+          "bug_fix_prs": 0.174825,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.064516,
+          "chore_prs": 0.230769
+        }
+      }
+    ],
+    "pauldambra": [
+      {
+        "date": "2025-12-25",
+        "normalized_metrics": {
+          "prs_merged": 0.75,
+          "total_additions": 0.894645,
+          "total_deletions": 0.449629,
+          "avg_pr_size": 0.500943,
+          "reviews_given": 0.701754,
+          "review_comments": 0.761905,
+          "approvals_given": 0.685714,
+          "unique_prs_reviewed": 0.534884,
+          "bug_fix_prs": 0.777778,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.111111,
+          "chore_prs": 0.357143
+        }
+      },
+      {
+        "date": "2026-01-08",
+        "normalized_metrics": {
+          "prs_merged": 1.0,
+          "total_additions": 0.15889,
+          "total_deletions": 0.384331,
+          "avg_pr_size": 0.187379,
+          "reviews_given": 0.693694,
+          "review_comments": 0.8,
+          "approvals_given": 0.619718,
+          "unique_prs_reviewed": 0.54321,
+          "bug_fix_prs": 1.0,
+          "issues_involved": 0.285714,
+          "unique_areas_touched": 0.166667,
+          "chore_prs": 0.5
+        }
+      },
+      {
+        "date": "2026-01-22",
+        "normalized_metrics": {
+          "prs_merged": 0.835821,
+          "total_additions": 0.139051,
+          "total_deletions": 0.163151,
+          "avg_pr_size": 0.091363,
+          "reviews_given": 0.586022,
+          "review_comments": 0.571429,
+          "approvals_given": 0.5,
+          "unique_prs_reviewed": 0.474074,
+          "bug_fix_prs": 1.0,
+          "issues_involved": 0.133333,
+          "unique_areas_touched": 0.176471,
+          "chore_prs": 0.5
+        }
+      },
+      {
+        "date": "2026-02-05",
+        "normalized_metrics": {
+          "prs_merged": 1.0,
+          "total_additions": 0.137257,
+          "total_deletions": 0.179911,
+          "avg_pr_size": 0.043473,
+          "reviews_given": 0.784861,
+          "review_comments": 0.645833,
+          "approvals_given": 0.594118,
+          "unique_prs_reviewed": 0.591398,
+          "bug_fix_prs": 1.0,
+          "issues_involved": 0.105263,
+          "unique_areas_touched": 0.3,
+          "chore_prs": 0.6
+        }
+      },
+      {
+        "date": "2026-02-19",
+        "normalized_metrics": {
+          "prs_merged": 0.965278,
+          "total_additions": 0.167321,
+          "total_deletions": 0.181107,
+          "avg_pr_size": 0.089438,
+          "reviews_given": 0.86859,
+          "review_comments": 0.675439,
+          "approvals_given": 0.635514,
+          "unique_prs_reviewed": 0.650655,
+          "bug_fix_prs": 1.0,
+          "issues_involved": 0.086957,
+          "unique_areas_touched": 0.52,
+          "chore_prs": 0.5
+        }
+      },
+      {
+        "date": "2026-03-05",
+        "normalized_metrics": {
+          "prs_merged": 0.91623,
+          "total_additions": 0.199927,
+          "total_deletions": 0.20039,
+          "avg_pr_size": 0.077715,
+          "reviews_given": 0.833333,
+          "review_comments": 0.62963,
+          "approvals_given": 0.621094,
+          "unique_prs_reviewed": 0.632353,
+          "bug_fix_prs": 1.0,
+          "issues_involved": 0.115385,
+          "unique_areas_touched": 0.571429,
+          "chore_prs": 0.413793
+        }
+      },
+      {
+        "date": "2026-03-11",
+        "normalized_metrics": {
+          "prs_merged": 0.908213,
+          "total_additions": 0.150964,
+          "total_deletions": 0.151323,
+          "avg_pr_size": 0.035921,
+          "reviews_given": 0.735023,
+          "review_comments": 0.564935,
+          "approvals_given": 0.583039,
+          "unique_prs_reviewed": 0.602007,
+          "bug_fix_prs": 1.0,
+          "issues_involved": 0.107143,
+          "unique_areas_touched": 0.516129,
+          "chore_prs": 0.415385
+        }
+      }
+    ],
+    "andrewm4894": [
+      {
+        "date": "2025-12-25",
+        "normalized_metrics": {
+          "prs_merged": 0.357143,
+          "total_additions": 0.574565,
+          "total_deletions": 0.129906,
+          "avg_pr_size": 0.461569,
+          "reviews_given": 0.070175,
+          "review_comments": 0.0,
+          "approvals_given": 0.114286,
+          "unique_prs_reviewed": 0.093023,
+          "bug_fix_prs": 0.277778,
+          "issues_involved": 0.6,
+          "unique_areas_touched": 0.333333,
+          "chore_prs": 0.0
+        }
+      },
+      {
+        "date": "2026-01-08",
+        "normalized_metrics": {
+          "prs_merged": 0.447368,
+          "total_additions": 0.098959,
+          "total_deletions": 0.148168,
+          "avg_pr_size": 0.205623,
+          "reviews_given": 0.081081,
+          "review_comments": 0.0,
+          "approvals_given": 0.126761,
+          "unique_prs_reviewed": 0.111111,
+          "bug_fix_prs": 0.259259,
+          "issues_involved": 0.428571,
+          "unique_areas_touched": 0.25,
+          "chore_prs": 0.0625
+        }
+      },
+      {
+        "date": "2026-01-22",
+        "normalized_metrics": {
+          "prs_merged": 0.701493,
+          "total_additions": 0.211568,
+          "total_deletions": 0.079929,
+          "avg_pr_size": 0.125715,
+          "reviews_given": 0.102151,
+          "review_comments": 0.0,
+          "approvals_given": 0.158333,
+          "unique_prs_reviewed": 0.140741,
+          "bug_fix_prs": 0.380952,
+          "issues_involved": 0.4,
+          "unique_areas_touched": 0.352941,
+          "chore_prs": 0.318182
+        }
+      },
+      {
+        "date": "2026-02-05",
+        "normalized_metrics": {
+          "prs_merged": 0.932039,
+          "total_additions": 0.207794,
+          "total_deletions": 0.090418,
+          "avg_pr_size": 0.053325,
+          "reviews_given": 0.171315,
+          "review_comments": 0.03125,
+          "approvals_given": 0.235294,
+          "unique_prs_reviewed": 0.209677,
+          "bug_fix_prs": 0.35443,
+          "issues_involved": 0.421053,
+          "unique_areas_touched": 0.5,
+          "chore_prs": 0.566667
+        }
+      },
+      {
+        "date": "2026-02-19",
+        "normalized_metrics": {
+          "prs_merged": 1.0,
+          "total_additions": 0.231188,
+          "total_deletions": 0.106336,
+          "avg_pr_size": 0.094181,
+          "reviews_given": 0.275641,
+          "review_comments": 0.078947,
+          "approvals_given": 0.383178,
+          "unique_prs_reviewed": 0.349345,
+          "bug_fix_prs": 0.413462,
+          "issues_involved": 0.478261,
+          "unique_areas_touched": 0.4,
+          "chore_prs": 0.681818
+        }
+      },
+      {
+        "date": "2026-03-05",
+        "normalized_metrics": {
+          "prs_merged": 1.0,
+          "total_additions": 0.292458,
+          "total_deletions": 0.128175,
+          "avg_pr_size": 0.083877,
+          "reviews_given": 0.327957,
+          "review_comments": 0.096296,
+          "approvals_given": 0.460938,
+          "unique_prs_reviewed": 0.426471,
+          "bug_fix_prs": 0.470149,
+          "issues_involved": 0.461538,
+          "unique_areas_touched": 0.392857,
+          "chore_prs": 0.62069
+        }
+      },
+      {
+        "date": "2026-03-11",
+        "normalized_metrics": {
+          "prs_merged": 1.0,
+          "total_additions": 0.217775,
+          "total_deletions": 0.095216,
+          "avg_pr_size": 0.037981,
+          "reviews_given": 0.320276,
+          "review_comments": 0.097403,
+          "approvals_given": 0.473498,
+          "unique_prs_reviewed": 0.444816,
+          "bug_fix_prs": 0.48951,
+          "issues_involved": 0.428571,
+          "unique_areas_touched": 0.354839,
+          "chore_prs": 0.553846
+        }
+      }
+    ],
+    "haacked": [
+      {
+        "date": "2025-12-25",
+        "normalized_metrics": {
+          "prs_merged": 0.642857,
+          "total_additions": 0.953146,
+          "total_deletions": 0.163025,
+          "avg_pr_size": 0.446137,
+          "reviews_given": 0.175439,
+          "review_comments": 0.333333,
+          "approvals_given": 0.171429,
+          "unique_prs_reviewed": 0.162791,
+          "bug_fix_prs": 0.722222,
+          "issues_involved": 0.4,
+          "unique_areas_touched": 0.444444,
+          "chore_prs": 0.428571
+        }
+      },
+      {
+        "date": "2026-01-08",
+        "normalized_metrics": {
+          "prs_merged": 0.710526,
+          "total_additions": 0.224617,
+          "total_deletions": 0.20834,
+          "avg_pr_size": 0.279875,
+          "reviews_given": 0.144144,
+          "review_comments": 0.325,
+          "approvals_given": 0.169014,
+          "unique_prs_reviewed": 0.160494,
+          "bug_fix_prs": 0.592593,
+          "issues_involved": 0.428571,
+          "unique_areas_touched": 0.333333,
+          "chore_prs": 0.6875
+        }
+      },
+      {
+        "date": "2026-01-22",
+        "normalized_metrics": {
+          "prs_merged": 0.597015,
+          "total_additions": 0.297631,
+          "total_deletions": 0.120504,
+          "avg_pr_size": 0.209384,
+          "reviews_given": 0.290323,
+          "review_comments": 0.514286,
+          "approvals_given": 0.283333,
+          "unique_prs_reviewed": 0.288889,
+          "bug_fix_prs": 0.404762,
+          "issues_involved": 0.2,
+          "unique_areas_touched": 0.352941,
+          "chore_prs": 1.0
+        }
+      },
+      {
+        "date": "2026-02-05",
+        "normalized_metrics": {
+          "prs_merged": 0.485437,
+          "total_additions": 0.217135,
+          "total_deletions": 0.088388,
+          "avg_pr_size": 0.108363,
+          "reviews_given": 0.286853,
+          "review_comments": 0.520833,
+          "approvals_given": 0.270588,
+          "unique_prs_reviewed": 0.27957,
+          "bug_fix_prs": 0.278481,
+          "issues_involved": 0.157895,
+          "unique_areas_touched": 0.3,
+          "chore_prs": 0.9
+        }
+      },
+      {
+        "date": "2026-02-19",
+        "normalized_metrics": {
+          "prs_merged": 0.409722,
+          "total_additions": 0.216014,
+          "total_deletions": 0.082646,
+          "avg_pr_size": 0.205091,
+          "reviews_given": 0.25641,
+          "review_comments": 0.5,
+          "approvals_given": 0.238318,
+          "unique_prs_reviewed": 0.248908,
+          "bug_fix_prs": 0.25,
+          "issues_involved": 0.347826,
+          "unique_areas_touched": 0.28,
+          "chore_prs": 0.681818
+        }
+      },
+      {
+        "date": "2026-03-05",
+        "normalized_metrics": {
+          "prs_merged": 0.450262,
+          "total_additions": 0.254171,
+          "total_deletions": 0.101529,
+          "avg_pr_size": 0.158622,
+          "reviews_given": 0.290323,
+          "review_comments": 0.622222,
+          "approvals_given": 0.28125,
+          "unique_prs_reviewed": 0.294118,
+          "bug_fix_prs": 0.298507,
+          "issues_involved": 0.576923,
+          "unique_areas_touched": 0.392857,
+          "chore_prs": 0.586207
+        }
+      },
+      {
+        "date": "2026-03-11",
+        "normalized_metrics": {
+          "prs_merged": 0.458937,
+          "total_additions": 0.197036,
+          "total_deletions": 0.090893,
+          "avg_pr_size": 0.075656,
+          "reviews_given": 0.278802,
+          "review_comments": 0.62987,
+          "approvals_given": 0.289753,
+          "unique_prs_reviewed": 0.307692,
+          "bug_fix_prs": 0.321678,
+          "issues_involved": 0.714286,
+          "unique_areas_touched": 0.354839,
+          "chore_prs": 0.538462
+        }
+      }
+    ],
+    "thmsobrmlr": [
+      {
+        "date": "2025-12-25",
+        "normalized_metrics": {
+          "prs_merged": 0.071429,
+          "total_additions": 0.027845,
+          "total_deletions": 0.033218,
+          "avg_pr_size": 0.112466,
+          "reviews_given": 0.263158,
+          "review_comments": 0.47619,
+          "approvals_given": 0.314286,
+          "unique_prs_reviewed": 0.27907,
+          "bug_fix_prs": 0.111111,
+          "issues_involved": 0.2,
+          "unique_areas_touched": 0.222222,
+          "chore_prs": 0.0
+        }
+      },
+      {
+        "date": "2026-01-08",
+        "normalized_metrics": {
+          "prs_merged": 0.473684,
+          "total_additions": 0.165442,
+          "total_deletions": 0.859297,
+          "avg_pr_size": 0.554601,
+          "reviews_given": 0.324324,
+          "review_comments": 0.6,
+          "approvals_given": 0.352113,
+          "unique_prs_reviewed": 0.358025,
+          "bug_fix_prs": 0.222222,
+          "issues_involved": 0.142857,
+          "unique_areas_touched": 0.75,
+          "chore_prs": 0.0625
+        }
+      },
+      {
+        "date": "2026-01-22",
+        "normalized_metrics": {
+          "prs_merged": 0.402985,
+          "total_additions": 0.135445,
+          "total_deletions": 0.355079,
+          "avg_pr_size": 0.255388,
+          "reviews_given": 0.349462,
+          "review_comments": 0.571429,
+          "approvals_given": 0.383333,
+          "unique_prs_reviewed": 0.377778,
+          "bug_fix_prs": 0.214286,
+          "issues_involved": 0.066667,
+          "unique_areas_touched": 0.705882,
+          "chore_prs": 0.136364
+        }
+      },
+      {
+        "date": "2026-02-05",
+        "normalized_metrics": {
+          "prs_merged": 0.38835,
+          "total_additions": 0.096368,
+          "total_deletions": 0.236332,
+          "avg_pr_size": 0.108471,
+          "reviews_given": 0.422311,
+          "review_comments": 0.635417,
+          "approvals_given": 0.458824,
+          "unique_prs_reviewed": 0.451613,
+          "bug_fix_prs": 0.240506,
+          "issues_involved": 0.105263,
+          "unique_areas_touched": 0.9,
+          "chore_prs": 0.133333
+        }
+      },
+      {
+        "date": "2026-02-19",
+        "normalized_metrics": {
+          "prs_merged": 0.347222,
+          "total_additions": 0.101588,
+          "total_deletions": 0.201805,
+          "avg_pr_size": 0.193756,
+          "reviews_given": 0.490385,
+          "review_comments": 0.719298,
+          "approvals_given": 0.551402,
+          "unique_prs_reviewed": 0.545852,
+          "bug_fix_prs": 0.259615,
+          "issues_involved": 0.086957,
+          "unique_areas_touched": 0.84,
+          "chore_prs": 0.113636
+        }
+      },
+      {
+        "date": "2026-03-05",
+        "normalized_metrics": {
+          "prs_merged": 0.303665,
+          "total_additions": 0.104156,
+          "total_deletions": 0.209425,
+          "avg_pr_size": 0.162929,
+          "reviews_given": 0.473118,
+          "review_comments": 0.651852,
+          "approvals_given": 0.542969,
+          "unique_prs_reviewed": 0.540441,
+          "bug_fix_prs": 0.238806,
+          "issues_involved": 0.076923,
+          "unique_areas_touched": 0.892857,
+          "chore_prs": 0.12069
+        }
+      },
+      {
+        "date": "2026-03-11",
+        "normalized_metrics": {
+          "prs_merged": 0.323671,
+          "total_additions": 0.084559,
+          "total_deletions": 0.151854,
+          "avg_pr_size": 0.071235,
+          "reviews_given": 0.442396,
+          "review_comments": 0.61039,
+          "approvals_given": 0.54417,
+          "unique_prs_reviewed": 0.541806,
+          "bug_fix_prs": 0.265734,
+          "issues_involved": 0.071429,
+          "unique_areas_touched": 0.83871,
+          "chore_prs": 0.107692
+        }
+      }
+    ],
+    "dmarticus": [
+      {
+        "date": "2025-12-25",
+        "normalized_metrics": null
+      },
+      {
+        "date": "2026-01-08",
+        "normalized_metrics": {
+          "prs_merged": 0.0,
+          "total_additions": 0.002556,
+          "total_deletions": 0.048409,
+          "avg_pr_size": 0.151841,
+          "reviews_given": 0.189189,
+          "review_comments": 0.45,
+          "approvals_given": 0.253521,
+          "unique_prs_reviewed": 0.234568,
+          "bug_fix_prs": 0.037037,
+          "issues_involved": 0.142857,
+          "unique_areas_touched": 0.083333,
+          "chore_prs": 0.0625
+        }
+      },
+      {
+        "date": "2026-01-22",
+        "normalized_metrics": {
+          "prs_merged": 0.223881,
+          "total_additions": 0.132772,
+          "total_deletions": 1.0,
+          "avg_pr_size": 0.851409,
+          "reviews_given": 0.22043,
+          "review_comments": 0.414286,
+          "approvals_given": 0.283333,
+          "unique_prs_reviewed": 0.259259,
+          "bug_fix_prs": 0.166667,
+          "issues_involved": 0.266667,
+          "unique_areas_touched": 0.235294,
+          "chore_prs": 0.318182
+        }
+      },
+      {
+        "date": "2026-02-05",
+        "normalized_metrics": {
+          "prs_merged": 0.262136,
+          "total_additions": 0.119052,
+          "total_deletions": 0.676003,
+          "avg_pr_size": 0.340343,
+          "reviews_given": 0.247012,
+          "review_comments": 0.458333,
+          "approvals_given": 0.311765,
+          "unique_prs_reviewed": 0.290323,
+          "bug_fix_prs": 0.177215,
+          "issues_involved": 0.263158,
+          "unique_areas_touched": 0.35,
+          "chore_prs": 0.333333
+        }
+      },
+      {
+        "date": "2026-02-19",
+        "normalized_metrics": {
+          "prs_merged": 0.298611,
+          "total_additions": 0.151357,
+          "total_deletions": 0.580623,
+          "avg_pr_size": 0.497183,
+          "reviews_given": 0.25641,
+          "review_comments": 0.464912,
+          "approvals_given": 0.32243,
+          "unique_prs_reviewed": 0.305677,
+          "bug_fix_prs": 0.201923,
+          "issues_involved": 0.391304,
+          "unique_areas_touched": 0.44,
+          "chore_prs": 0.318182
+        }
+      },
+      {
+        "date": "2026-03-05",
+        "normalized_metrics": {
+          "prs_merged": 0.34555,
+          "total_additions": 0.199989,
+          "total_deletions": 0.595718,
+          "avg_pr_size": 0.348915,
+          "reviews_given": 0.276882,
+          "review_comments": 0.518519,
+          "approvals_given": 0.34375,
+          "unique_prs_reviewed": 0.327206,
+          "bug_fix_prs": 0.268657,
+          "issues_involved": 0.423077,
+          "unique_areas_touched": 0.678571,
+          "chore_prs": 0.293103
+        }
+      },
+      {
+        "date": "2026-03-11",
+        "normalized_metrics": {
+          "prs_merged": 0.362319,
+          "total_additions": 0.156832,
+          "total_deletions": 0.432001,
+          "avg_pr_size": 0.150786,
+          "reviews_given": 0.274194,
+          "review_comments": 0.525974,
+          "approvals_given": 0.349823,
+          "unique_prs_reviewed": 0.334448,
+          "bug_fix_prs": 0.265734,
+          "issues_involved": 0.464286,
+          "unique_areas_touched": 0.612903,
+          "chore_prs": 0.261538
+        }
+      }
+    ],
+    "adboio": [
+      {
+        "date": "2025-12-25",
+        "normalized_metrics": {
+          "prs_merged": 1.0,
+          "total_additions": 0.840696,
+          "total_deletions": 0.28265,
+          "avg_pr_size": 0.312061,
+          "reviews_given": 0.403509,
+          "review_comments": 0.52381,
+          "approvals_given": 0.514286,
+          "unique_prs_reviewed": 0.372093,
+          "bug_fix_prs": 0.555556,
+          "issues_involved": 0.4,
+          "unique_areas_touched": 0.222222,
+          "chore_prs": 0.571429
+        }
+      },
+      {
+        "date": "2026-01-08",
+        "normalized_metrics": {
+          "prs_merged": 0.947368,
+          "total_additions": 0.172202,
+          "total_deletions": 0.24197,
+          "avg_pr_size": 0.179533,
+          "reviews_given": 0.324324,
+          "review_comments": 0.375,
+          "approvals_given": 0.323944,
+          "unique_prs_reviewed": 0.271605,
+          "bug_fix_prs": 0.444444,
+          "issues_involved": 0.428571,
+          "unique_areas_touched": 0.166667,
+          "chore_prs": 0.5625
+        }
+      },
+      {
+        "date": "2026-01-22",
+        "normalized_metrics": {
+          "prs_merged": 0.925373,
+          "total_additions": 0.198091,
+          "total_deletions": 0.149342,
+          "avg_pr_size": 0.103549,
+          "reviews_given": 0.354839,
+          "review_comments": 0.328571,
+          "approvals_given": 0.383333,
+          "unique_prs_reviewed": 0.311111,
+          "bug_fix_prs": 0.404762,
+          "issues_involved": 0.2,
+          "unique_areas_touched": 0.117647,
+          "chore_prs": 0.772727
+        }
+      },
+      {
+        "date": "2026-02-05",
+        "normalized_metrics": {
+          "prs_merged": 0.834951,
+          "total_additions": 0.186824,
+          "total_deletions": 0.165243,
+          "avg_pr_size": 0.063964,
+          "reviews_given": 0.358566,
+          "review_comments": 0.270833,
+          "approvals_given": 0.4,
+          "unique_prs_reviewed": 0.349462,
+          "bug_fix_prs": 0.291139,
+          "issues_involved": 0.210526,
+          "unique_areas_touched": 0.25,
+          "chore_prs": 0.866667
+        }
+      },
+      {
+        "date": "2026-02-19",
+        "normalized_metrics": {
+          "prs_merged": 0.777778,
+          "total_additions": 0.1889,
+          "total_deletions": 0.151465,
+          "avg_pr_size": 0.113528,
+          "reviews_given": 0.349359,
+          "review_comments": 0.280702,
+          "approvals_given": 0.383178,
+          "unique_prs_reviewed": 0.344978,
+          "bug_fix_prs": 0.326923,
+          "issues_involved": 0.304348,
+          "unique_areas_touched": 0.28,
+          "chore_prs": 0.795455
+        }
+      },
+      {
+        "date": "2026-03-05",
+        "normalized_metrics": {
+          "prs_merged": 0.685864,
+          "total_additions": 0.211952,
+          "total_deletions": 0.187034,
+          "avg_pr_size": 0.105815,
+          "reviews_given": 0.311828,
+          "review_comments": 0.266667,
+          "approvals_given": 0.347656,
+          "unique_prs_reviewed": 0.316176,
+          "bug_fix_prs": 0.298507,
+          "issues_involved": 0.346154,
+          "unique_areas_touched": 0.25,
+          "chore_prs": 0.758621
+        }
+      },
+      {
+        "date": "2026-03-11",
+        "normalized_metrics": {
+          "prs_merged": 0.666667,
+          "total_additions": 0.150527,
+          "total_deletions": 0.134808,
+          "avg_pr_size": 0.047121,
+          "reviews_given": 0.278802,
+          "review_comments": 0.246753,
+          "approvals_given": 0.332155,
+          "unique_prs_reviewed": 0.301003,
+          "bug_fix_prs": 0.314685,
+          "issues_involved": 0.321429,
+          "unique_areas_touched": 0.225806,
+          "chore_prs": 0.692308
+        }
+      }
+    ],
+    "skoob13": [
+      {
+        "date": "2025-12-25",
+        "normalized_metrics": {
+          "prs_merged": 0.214286,
+          "total_additions": 0.662651,
+          "total_deletions": 0.154226,
+          "avg_pr_size": 0.780528,
+          "reviews_given": 0.54386,
+          "review_comments": 0.47619,
+          "approvals_given": 0.428571,
+          "unique_prs_reviewed": 0.348837,
+          "bug_fix_prs": 0.111111,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.222222,
+          "chore_prs": 0.0
+        }
+      },
+      {
+        "date": "2026-01-08",
+        "normalized_metrics": {
+          "prs_merged": 0.473684,
+          "total_additions": 0.130922,
+          "total_deletions": 0.529634,
+          "avg_pr_size": 0.382763,
+          "reviews_given": 0.387387,
+          "review_comments": 0.3,
+          "approvals_given": 0.295775,
+          "unique_prs_reviewed": 0.259259,
+          "bug_fix_prs": 0.37037,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.166667,
+          "chore_prs": 0.1875
+        }
+      },
+      {
+        "date": "2026-01-22",
+        "normalized_metrics": {
+          "prs_merged": 0.492537,
+          "total_additions": 0.19416,
+          "total_deletions": 0.300238,
+          "avg_pr_size": 0.236211,
+          "reviews_given": 0.354839,
+          "review_comments": 0.371429,
+          "approvals_given": 0.283333,
+          "unique_prs_reviewed": 0.244444,
+          "bug_fix_prs": 0.380952,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.235294,
+          "chore_prs": 0.227273
+        }
+      },
+      {
+        "date": "2026-02-05",
+        "normalized_metrics": {
+          "prs_merged": 0.359223,
+          "total_additions": 0.141903,
+          "total_deletions": 0.19914,
+          "avg_pr_size": 0.132997,
+          "reviews_given": 0.298805,
+          "review_comments": 0.28125,
+          "approvals_given": 0.247059,
+          "unique_prs_reviewed": 0.22043,
+          "bug_fix_prs": 0.240506,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.2,
+          "chore_prs": 0.166667
+        }
+      },
+      {
+        "date": "2026-02-19",
+        "normalized_metrics": {
+          "prs_merged": 0.423611,
+          "total_additions": 0.202075,
+          "total_deletions": 0.177934,
+          "avg_pr_size": 0.2276,
+          "reviews_given": 0.291667,
+          "review_comments": 0.27193,
+          "approvals_given": 0.252336,
+          "unique_prs_reviewed": 0.240175,
+          "bug_fix_prs": 0.288462,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.36,
+          "chore_prs": 0.204545
+        }
+      },
+      {
+        "date": "2026-03-05",
+        "normalized_metrics": {
+          "prs_merged": 0.403141,
+          "total_additions": 0.227607,
+          "total_deletions": 0.216872,
+          "avg_pr_size": 0.197589,
+          "reviews_given": 0.314516,
+          "review_comments": 0.303704,
+          "approvals_given": 0.292969,
+          "unique_prs_reviewed": 0.283088,
+          "bug_fix_prs": 0.298507,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.464286,
+          "chore_prs": 0.206897
+        }
+      },
+      {
+        "date": "2026-03-11",
+        "normalized_metrics": {
+          "prs_merged": 0.444444,
+          "total_additions": 0.173245,
+          "total_deletions": 0.158639,
+          "avg_pr_size": 0.082006,
+          "reviews_given": 0.299539,
+          "review_comments": 0.311688,
+          "approvals_given": 0.310954,
+          "unique_prs_reviewed": 0.301003,
+          "bug_fix_prs": 0.335664,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.483871,
+          "chore_prs": 0.215385
+        }
+      }
+    ],
+    "sakce": [
+      {
+        "date": "2025-12-25",
+        "normalized_metrics": {
+          "prs_merged": 0.607143,
+          "total_additions": 0.276707,
+          "total_deletions": 0.025507,
+          "avg_pr_size": 0.117806,
+          "reviews_given": 0.280702,
+          "review_comments": 0.380952,
+          "approvals_given": 0.4,
+          "unique_prs_reviewed": 0.325581,
+          "bug_fix_prs": 0.277778,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.222222,
+          "chore_prs": 0.571429
+        }
+      },
+      {
+        "date": "2026-01-08",
+        "normalized_metrics": {
+          "prs_merged": 0.605263,
+          "total_additions": 0.12776,
+          "total_deletions": 0.079324,
+          "avg_pr_size": 0.17072,
+          "reviews_given": 0.198198,
+          "review_comments": 0.25,
+          "approvals_given": 0.28169,
+          "unique_prs_reviewed": 0.234568,
+          "bug_fix_prs": 0.222222,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.166667,
+          "chore_prs": 0.6875
+        }
+      },
+      {
+        "date": "2026-01-22",
+        "normalized_metrics": {
+          "prs_merged": 0.597015,
+          "total_additions": 0.161281,
+          "total_deletions": 0.052829,
+          "avg_pr_size": 0.108945,
+          "reviews_given": 0.172043,
+          "review_comments": 0.185714,
+          "approvals_given": 0.25,
+          "unique_prs_reviewed": 0.214815,
+          "bug_fix_prs": 0.214286,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.176471,
+          "chore_prs": 0.863636
+        }
+      },
+      {
+        "date": "2026-02-05",
+        "normalized_metrics": {
+          "prs_merged": 0.514563,
+          "total_additions": 0.132893,
+          "total_deletions": 0.072857,
+          "avg_pr_size": 0.064232,
+          "reviews_given": 0.243028,
+          "review_comments": 0.208333,
+          "approvals_given": 0.329412,
+          "unique_prs_reviewed": 0.295699,
+          "bug_fix_prs": 0.126582,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.25,
+          "chore_prs": 0.8
+        }
+      },
+      {
+        "date": "2026-02-19",
+        "normalized_metrics": {
+          "prs_merged": 0.465278,
+          "total_additions": 0.142437,
+          "total_deletions": 0.067701,
+          "avg_pr_size": 0.123647,
+          "reviews_given": 0.269231,
+          "review_comments": 0.245614,
+          "approvals_given": 0.331776,
+          "unique_prs_reviewed": 0.31441,
+          "bug_fix_prs": 0.182692,
+          "issues_involved": 0.0,
+          "unique_areas_touched": 0.28,
+          "chore_prs": 0.568182
+        }
+      },
+      {
+        "date": "2026-03-05",
+        "normalized_metrics": {
+          "prs_merged": 0.52356,
+          "total_additions": 0.161835,
+          "total_deletions": 0.070692,
+          "avg_pr_size": 0.087517,
+          "reviews_given": 0.271505,
+          "review_comments": 0.222222,
+          "approvals_given": 0.339844,
+          "unique_prs_reviewed": 0.327206,
+          "bug_fix_prs": 0.253731,
+          "issues_involved": 0.038462,
+          "unique_areas_touched": 0.357143,
+          "chore_prs": 0.706897
+        }
+      },
+      {
+        "date": "2026-03-11",
+        "normalized_metrics": {
+          "prs_merged": 0.507246,
+          "total_additions": 0.11641,
+          "total_deletions": 0.050853,
+          "avg_pr_size": 0.039543,
+          "reviews_given": 0.24424,
+          "review_comments": 0.207792,
+          "approvals_given": 0.325088,
+          "unique_prs_reviewed": 0.314381,
+          "bug_fix_prs": 0.251748,
+          "issues_involved": 0.035714,
+          "unique_areas_touched": 0.354839,
+          "chore_prs": 0.661538
+        }
+      }
+    ]
+  }
 }
