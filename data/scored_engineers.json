@@ -1,0 +1,4069 @@
+{
+  "metadata": {
+    "date_range": "2025-12-11 to 2026-03-11",
+    "total_prs": 5181,
+    "total_engineers": 270,
+    "qualifying_engineers": 109,
+    "min_pr_threshold": 5
+  },
+  "metric_weights": {
+    "collaboration": {
+      "reviews_given": 0.25,
+      "review_comments": 0.2,
+      "approvals_given": 0.2,
+      "unique_prs_reviewed": 0.35
+    },
+    "ownership": {
+      "bug_fix_prs": 0.3,
+      "issues_involved": 0.25,
+      "unique_areas_touched": 0.25,
+      "chore_prs": 0.2
+    },
+    "output": {
+      "prs_merged": 0.4,
+      "total_additions": 0.15,
+      "total_deletions": 0.1,
+      "avg_pr_size": 0.35
+    }
+  },
+  "default_category_weights": {
+    "collaboration": 0.35,
+    "ownership": 0.3,
+    "output": 0.35
+  },
+  "engineers": [
+    {
+      "login": "webjunkie",
+      "raw_metrics": {
+        "prs_merged": 133,
+        "total_additions": 160194,
+        "total_deletions": 84906,
+        "avg_pr_size": 1842.86,
+        "reviews_given": 185,
+        "review_comments": 47,
+        "approvals_given": 160,
+        "unique_prs_reviewed": 167,
+        "bug_fix_prs": 53,
+        "issues_involved": 1,
+        "unique_areas_touched": 31,
+        "chore_prs": 62
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.62439,
+        "total_additions": 1.0,
+        "total_deletions": 1.0,
+        "avg_pr_size": 0.352337,
+        "reviews_given": 0.426267,
+        "review_comments": 0.305195,
+        "approvals_given": 0.565371,
+        "unique_prs_reviewed": 0.558528,
+        "bug_fix_prs": 0.370629,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 1.0,
+        "chore_prs": 0.953846
+      },
+      "category_scores": {
+        "collaboration": 0.476165,
+        "ownership": 0.560886,
+        "output": 0.623074
+      },
+      "composite_score": 0.552999
+    },
+    {
+      "login": "rafaeelaudibert",
+      "raw_metrics": {
+        "prs_merged": 144,
+        "total_additions": 80163,
+        "total_deletions": 48815,
+        "avg_pr_size": 895.68,
+        "reviews_given": 434,
+        "review_comments": 154,
+        "approvals_given": 283,
+        "unique_prs_reviewed": 299,
+        "bug_fix_prs": 25,
+        "issues_involved": 0,
+        "unique_areas_touched": 2,
+        "chore_prs": 15
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.678049,
+        "total_additions": 0.500359,
+        "total_deletions": 0.574855,
+        "avg_pr_size": 0.170575,
+        "reviews_given": 1.0,
+        "review_comments": 1.0,
+        "approvals_given": 1.0,
+        "unique_prs_reviewed": 1.0,
+        "bug_fix_prs": 0.174825,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.064516,
+        "chore_prs": 0.230769
+      },
+      "category_scores": {
+        "collaboration": 1.0,
+        "ownership": 0.11473,
+        "output": 0.46346
+      },
+      "composite_score": 0.54663
+    },
+    {
+      "login": "pauldambra",
+      "raw_metrics": {
+        "prs_merged": 191,
+        "total_additions": 24192,
+        "total_deletions": 12861,
+        "avg_pr_size": 193.99,
+        "reviews_given": 319,
+        "review_comments": 87,
+        "approvals_given": 165,
+        "unique_prs_reviewed": 180,
+        "bug_fix_prs": 143,
+        "issues_involved": 3,
+        "unique_areas_touched": 16,
+        "chore_prs": 27
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.907317,
+        "total_additions": 0.150927,
+        "total_deletions": 0.151323,
+        "avg_pr_size": 0.035921,
+        "reviews_given": 0.735023,
+        "review_comments": 0.564935,
+        "approvals_given": 0.583039,
+        "unique_prs_reviewed": 0.602007,
+        "bug_fix_prs": 1.0,
+        "issues_involved": 0.107143,
+        "unique_areas_touched": 0.516129,
+        "chore_prs": 0.415385
+      },
+      "category_scores": {
+        "collaboration": 0.624053,
+        "ownership": 0.538895,
+        "output": 0.413271
+      },
+      "composite_score": 0.524732
+    },
+    {
+      "login": "andrewm4894",
+      "raw_metrics": {
+        "prs_merged": 210,
+        "total_additions": 34894,
+        "total_deletions": 8098,
+        "avg_pr_size": 204.72,
+        "reviews_given": 139,
+        "review_comments": 15,
+        "approvals_given": 134,
+        "unique_prs_reviewed": 133,
+        "bug_fix_prs": 70,
+        "issues_involved": 12,
+        "unique_areas_touched": 11,
+        "chore_prs": 36
+      },
+      "normalized_metrics": {
+        "prs_merged": 1.0,
+        "total_additions": 0.21774,
+        "total_deletions": 0.095216,
+        "avg_pr_size": 0.037981,
+        "reviews_given": 0.320276,
+        "review_comments": 0.097403,
+        "approvals_given": 0.473498,
+        "unique_prs_reviewed": 0.444816,
+        "bug_fix_prs": 0.48951,
+        "issues_involved": 0.428571,
+        "unique_areas_touched": 0.354839,
+        "chore_prs": 0.553846
+      },
+      "category_scores": {
+        "collaboration": 0.349935,
+        "ownership": 0.453475,
+        "output": 0.455476
+      },
+      "composite_score": 0.417936
+    },
+    {
+      "login": "haacked",
+      "raw_metrics": {
+        "prs_merged": 98,
+        "total_additions": 31572,
+        "total_deletions": 7731,
+        "avg_pr_size": 401.05,
+        "reviews_given": 121,
+        "review_comments": 97,
+        "approvals_given": 82,
+        "unique_prs_reviewed": 92,
+        "bug_fix_prs": 46,
+        "issues_involved": 20,
+        "unique_areas_touched": 11,
+        "chore_prs": 35
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.453659,
+        "total_additions": 0.197001,
+        "total_deletions": 0.090893,
+        "avg_pr_size": 0.075656,
+        "reviews_given": 0.278802,
+        "review_comments": 0.62987,
+        "approvals_given": 0.289753,
+        "unique_prs_reviewed": 0.307692,
+        "bug_fix_prs": 0.321678,
+        "issues_involved": 0.714286,
+        "unique_areas_touched": 0.354839,
+        "chore_prs": 0.538462
+      },
+      "category_scores": {
+        "collaboration": 0.361317,
+        "ownership": 0.471477,
+        "output": 0.246583
+      },
+      "composite_score": 0.354208
+    },
+    {
+      "login": "thmsobrmlr",
+      "raw_metrics": {
+        "prs_merged": 70,
+        "total_additions": 13555,
+        "total_deletions": 12906,
+        "avg_pr_size": 378.01,
+        "reviews_given": 192,
+        "review_comments": 94,
+        "approvals_given": 154,
+        "unique_prs_reviewed": 162,
+        "bug_fix_prs": 38,
+        "issues_involved": 2,
+        "unique_areas_touched": 26,
+        "chore_prs": 7
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.317073,
+        "total_additions": 0.084519,
+        "total_deletions": 0.151854,
+        "avg_pr_size": 0.071235,
+        "reviews_given": 0.442396,
+        "review_comments": 0.61039,
+        "approvals_given": 0.54417,
+        "unique_prs_reviewed": 0.541806,
+        "bug_fix_prs": 0.265734,
+        "issues_involved": 0.071429,
+        "unique_areas_touched": 0.83871,
+        "chore_prs": 0.107692
+      },
+      "category_scores": {
+        "collaboration": 0.531143,
+        "ownership": 0.328793,
+        "output": 0.179625
+      },
+      "composite_score": 0.347407
+    },
+    {
+      "login": "dmarticus",
+      "raw_metrics": {
+        "prs_merged": 78,
+        "total_additions": 25132,
+        "total_deletions": 36688,
+        "avg_pr_size": 792.56,
+        "reviews_given": 119,
+        "review_comments": 81,
+        "approvals_given": 99,
+        "unique_prs_reviewed": 100,
+        "bug_fix_prs": 38,
+        "issues_involved": 13,
+        "unique_areas_touched": 19,
+        "chore_prs": 17
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.356098,
+        "total_additions": 0.156795,
+        "total_deletions": 0.432001,
+        "avg_pr_size": 0.150786,
+        "reviews_given": 0.274194,
+        "review_comments": 0.525974,
+        "approvals_given": 0.349823,
+        "unique_prs_reviewed": 0.334448,
+        "bug_fix_prs": 0.265734,
+        "issues_involved": 0.464286,
+        "unique_areas_touched": 0.612903,
+        "chore_prs": 0.261538
+      },
+      "category_scores": {
+        "collaboration": 0.360765,
+        "ownership": 0.401325,
+        "output": 0.261934
+      },
+      "composite_score": 0.338342
+    },
+    {
+      "login": "adboio",
+      "raw_metrics": {
+        "prs_merged": 141,
+        "total_additions": 24122,
+        "total_deletions": 11459,
+        "avg_pr_size": 252.35,
+        "reviews_given": 121,
+        "review_comments": 38,
+        "approvals_given": 94,
+        "unique_prs_reviewed": 90,
+        "bug_fix_prs": 45,
+        "issues_involved": 9,
+        "unique_areas_touched": 7,
+        "chore_prs": 45
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.663415,
+        "total_additions": 0.15049,
+        "total_deletions": 0.134808,
+        "avg_pr_size": 0.047121,
+        "reviews_given": 0.278802,
+        "review_comments": 0.246753,
+        "approvals_given": 0.332155,
+        "unique_prs_reviewed": 0.301003,
+        "bug_fix_prs": 0.314685,
+        "issues_involved": 0.321429,
+        "unique_areas_touched": 0.225806,
+        "chore_prs": 0.692308
+      },
+      "category_scores": {
+        "collaboration": 0.290833,
+        "ownership": 0.369676,
+        "output": 0.317913
+      },
+      "composite_score": 0.323964
+    },
+    {
+      "login": "skoob13",
+      "raw_metrics": {
+        "prs_merged": 95,
+        "total_additions": 27761,
+        "total_deletions": 13482,
+        "avg_pr_size": 434.14,
+        "reviews_given": 130,
+        "review_comments": 48,
+        "approvals_given": 88,
+        "unique_prs_reviewed": 90,
+        "bug_fix_prs": 48,
+        "issues_involved": 0,
+        "unique_areas_touched": 15,
+        "chore_prs": 14
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.439024,
+        "total_additions": 0.173208,
+        "total_deletions": 0.158639,
+        "avg_pr_size": 0.082006,
+        "reviews_given": 0.299539,
+        "review_comments": 0.311688,
+        "approvals_given": 0.310954,
+        "unique_prs_reviewed": 0.301003,
+        "bug_fix_prs": 0.335664,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.483871,
+        "chore_prs": 0.215385
+      },
+      "category_scores": {
+        "collaboration": 0.304764,
+        "ownership": 0.264744,
+        "output": 0.246157
+      },
+      "composite_score": 0.272246
+    },
+    {
+      "login": "sakce",
+      "raw_metrics": {
+        "prs_merged": 108,
+        "total_additions": 18657,
+        "total_deletions": 4332,
+        "avg_pr_size": 212.86,
+        "reviews_given": 106,
+        "review_comments": 32,
+        "approvals_given": 92,
+        "unique_prs_reviewed": 94,
+        "bug_fix_prs": 36,
+        "issues_involved": 1,
+        "unique_areas_touched": 11,
+        "chore_prs": 43
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.502439,
+        "total_additions": 0.116371,
+        "total_deletions": 0.050853,
+        "avg_pr_size": 0.039543,
+        "reviews_given": 0.24424,
+        "review_comments": 0.207792,
+        "approvals_given": 0.325088,
+        "unique_prs_reviewed": 0.314381,
+        "bug_fix_prs": 0.251748,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.354839,
+        "chore_prs": 0.661538
+      },
+      "category_scores": {
+        "collaboration": 0.277669,
+        "ownership": 0.30547,
+        "output": 0.237357
+      },
+      "composite_score": 0.2719
+    },
+    {
+      "login": "eli-r-ph",
+      "raw_metrics": {
+        "prs_merged": 108,
+        "total_additions": 34479,
+        "total_deletions": 8813,
+        "avg_pr_size": 400.85,
+        "reviews_given": 138,
+        "review_comments": 37,
+        "approvals_given": 96,
+        "unique_prs_reviewed": 101,
+        "bug_fix_prs": 18,
+        "issues_involved": 0,
+        "unique_areas_touched": 18,
+        "chore_prs": 9
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.502439,
+        "total_additions": 0.215149,
+        "total_deletions": 0.103639,
+        "avg_pr_size": 0.075618,
+        "reviews_given": 0.317972,
+        "review_comments": 0.24026,
+        "approvals_given": 0.339223,
+        "unique_prs_reviewed": 0.337793,
+        "bug_fix_prs": 0.125874,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.580645,
+        "chore_prs": 0.138462
+      },
+      "category_scores": {
+        "collaboration": 0.313617,
+        "ownership": 0.210616,
+        "output": 0.270078
+      },
+      "composite_score": 0.267478
+    },
+    {
+      "login": "Piccirello",
+      "raw_metrics": {
+        "prs_merged": 92,
+        "total_additions": 12392,
+        "total_deletions": 2475,
+        "avg_pr_size": 161.6,
+        "reviews_given": 160,
+        "review_comments": 29,
+        "approvals_given": 118,
+        "unique_prs_reviewed": 127,
+        "bug_fix_prs": 41,
+        "issues_involved": 0,
+        "unique_areas_touched": 10,
+        "chore_prs": 23
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.42439,
+        "total_additions": 0.077258,
+        "total_deletions": 0.028978,
+        "avg_pr_size": 0.029706,
+        "reviews_given": 0.368664,
+        "review_comments": 0.188312,
+        "approvals_given": 0.416961,
+        "unique_prs_reviewed": 0.424749,
+        "bug_fix_prs": 0.286713,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.322581,
+        "chore_prs": 0.353846
+      },
+      "category_scores": {
+        "collaboration": 0.361883,
+        "ownership": 0.237428,
+        "output": 0.19464
+      },
+      "composite_score": 0.266011
+    },
+    {
+      "login": "adamleithp",
+      "raw_metrics": {
+        "prs_merged": 98,
+        "total_additions": 19259,
+        "total_deletions": 18261,
+        "avg_pr_size": 382.86,
+        "reviews_given": 100,
+        "review_comments": 19,
+        "approvals_given": 95,
+        "unique_prs_reviewed": 98,
+        "bug_fix_prs": 59,
+        "issues_involved": 1,
+        "unique_areas_touched": 7,
+        "chore_prs": 29
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.453659,
+        "total_additions": 0.12013,
+        "total_deletions": 0.214934,
+        "avg_pr_size": 0.072165,
+        "reviews_given": 0.230415,
+        "review_comments": 0.123377,
+        "approvals_given": 0.335689,
+        "unique_prs_reviewed": 0.327759,
+        "bug_fix_prs": 0.412587,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.225806,
+        "chore_prs": 0.446154
+      },
+      "category_scores": {
+        "collaboration": 0.264133,
+        "ownership": 0.278387,
+        "output": 0.246234
+      },
+      "composite_score": 0.262145
+    },
+    {
+      "login": "vdekrijger",
+      "raw_metrics": {
+        "prs_merged": 62,
+        "total_additions": 14368,
+        "total_deletions": 3432,
+        "avg_pr_size": 287.1,
+        "reviews_given": 136,
+        "review_comments": 12,
+        "approvals_given": 115,
+        "unique_prs_reviewed": 113,
+        "bug_fix_prs": 21,
+        "issues_involved": 1,
+        "unique_areas_touched": 28,
+        "chore_prs": 20
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.278049,
+        "total_additions": 0.089595,
+        "total_deletions": 0.040252,
+        "avg_pr_size": 0.053789,
+        "reviews_given": 0.313364,
+        "review_comments": 0.077922,
+        "approvals_given": 0.40636,
+        "unique_prs_reviewed": 0.377926,
+        "bug_fix_prs": 0.146853,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.903226,
+        "chore_prs": 0.307692
+      },
+      "category_scores": {
+        "collaboration": 0.307472,
+        "ownership": 0.340329,
+        "output": 0.14751
+      },
+      "composite_score": 0.261342
+    },
+    {
+      "login": "joshsny",
+      "raw_metrics": {
+        "prs_merged": 81,
+        "total_additions": 18418,
+        "total_deletions": 7758,
+        "avg_pr_size": 323.16,
+        "reviews_given": 140,
+        "review_comments": 48,
+        "approvals_given": 119,
+        "unique_prs_reviewed": 124,
+        "bug_fix_prs": 26,
+        "issues_involved": 0,
+        "unique_areas_touched": 11,
+        "chore_prs": 18
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.370732,
+        "total_additions": 0.114879,
+        "total_deletions": 0.091211,
+        "avg_pr_size": 0.060709,
+        "reviews_given": 0.322581,
+        "review_comments": 0.311688,
+        "approvals_given": 0.420495,
+        "unique_prs_reviewed": 0.414716,
+        "bug_fix_prs": 0.181818,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.354839,
+        "chore_prs": 0.276923
+      },
+      "category_scores": {
+        "collaboration": 0.372232,
+        "ownership": 0.19864,
+        "output": 0.195894
+      },
+      "composite_score": 0.258436
+    },
+    {
+      "login": "Radu-Raicea",
+      "raw_metrics": {
+        "prs_merged": 43,
+        "total_additions": 14324,
+        "total_deletions": 4046,
+        "avg_pr_size": 427.21,
+        "reviews_given": 308,
+        "review_comments": 32,
+        "approvals_given": 190,
+        "unique_prs_reviewed": 184,
+        "bug_fix_prs": 15,
+        "issues_involved": 0,
+        "unique_areas_touched": 3,
+        "chore_prs": 0
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.185366,
+        "total_additions": 0.08932,
+        "total_deletions": 0.047484,
+        "avg_pr_size": 0.080676,
+        "reviews_given": 0.709677,
+        "review_comments": 0.207792,
+        "approvals_given": 0.671378,
+        "unique_prs_reviewed": 0.615385,
+        "bug_fix_prs": 0.104895,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.096774,
+        "chore_prs": 0.0
+      },
+      "category_scores": {
+        "collaboration": 0.568638,
+        "ownership": 0.055662,
+        "output": 0.120529
+      },
+      "composite_score": 0.257907
+    },
+    {
+      "login": "sampennington",
+      "raw_metrics": {
+        "prs_merged": 76,
+        "total_additions": 13875,
+        "total_deletions": 3674,
+        "avg_pr_size": 230.91,
+        "reviews_given": 102,
+        "review_comments": 33,
+        "approvals_given": 92,
+        "unique_prs_reviewed": 93,
+        "bug_fix_prs": 45,
+        "issues_involved": 4,
+        "unique_areas_touched": 17,
+        "chore_prs": 21
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.346341,
+        "total_additions": 0.086517,
+        "total_deletions": 0.043102,
+        "avg_pr_size": 0.043006,
+        "reviews_given": 0.235023,
+        "review_comments": 0.214286,
+        "approvals_given": 0.325088,
+        "unique_prs_reviewed": 0.311037,
+        "bug_fix_prs": 0.314685,
+        "issues_involved": 0.142857,
+        "unique_areas_touched": 0.548387,
+        "chore_prs": 0.323077
+      },
+      "category_scores": {
+        "collaboration": 0.275494,
+        "ownership": 0.331832,
+        "output": 0.170876
+      },
+      "composite_score": 0.255779
+    },
+    {
+      "login": "jose-sequeira",
+      "raw_metrics": {
+        "prs_merged": 83,
+        "total_additions": 29714,
+        "total_deletions": 18045,
+        "avg_pr_size": 575.41,
+        "reviews_given": 143,
+        "review_comments": 19,
+        "approvals_given": 77,
+        "unique_prs_reviewed": 86,
+        "bug_fix_prs": 23,
+        "issues_involved": 0,
+        "unique_areas_touched": 7,
+        "chore_prs": 32
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.380488,
+        "total_additions": 0.185401,
+        "total_deletions": 0.21239,
+        "avg_pr_size": 0.109115,
+        "reviews_given": 0.329493,
+        "review_comments": 0.123377,
+        "approvals_given": 0.272085,
+        "unique_prs_reviewed": 0.287625,
+        "bug_fix_prs": 0.160839,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.225806,
+        "chore_prs": 0.492308
+      },
+      "category_scores": {
+        "collaboration": 0.262134,
+        "ownership": 0.203165,
+        "output": 0.239435
+      },
+      "composite_score": 0.236499
+    },
+    {
+      "login": "mariusandra",
+      "raw_metrics": {
+        "prs_merged": 49,
+        "total_additions": 21514,
+        "total_deletions": 6671,
+        "avg_pr_size": 575.2,
+        "reviews_given": 124,
+        "review_comments": 50,
+        "approvals_given": 112,
+        "unique_prs_reviewed": 110,
+        "bug_fix_prs": 29,
+        "issues_involved": 1,
+        "unique_areas_touched": 16,
+        "chore_prs": 1
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.214634,
+        "total_additions": 0.134208,
+        "total_deletions": 0.078406,
+        "avg_pr_size": 0.109075,
+        "reviews_given": 0.285714,
+        "review_comments": 0.324675,
+        "approvals_given": 0.39576,
+        "unique_prs_reviewed": 0.367893,
+        "bug_fix_prs": 0.202797,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.516129,
+        "chore_prs": 0.015385
+      },
+      "category_scores": {
+        "collaboration": 0.344278,
+        "ownership": 0.201877,
+        "output": 0.152002
+      },
+      "composite_score": 0.234261
+    },
+    {
+      "login": "mendral-app",
+      "raw_metrics": {
+        "prs_merged": 144,
+        "total_additions": 6611,
+        "total_deletions": 1628,
+        "avg_pr_size": 57.22,
+        "reviews_given": 1,
+        "review_comments": 1,
+        "approvals_given": 0,
+        "unique_prs_reviewed": 1,
+        "bug_fix_prs": 110,
+        "issues_involved": 0,
+        "unique_areas_touched": 25,
+        "chore_prs": 4
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.678049,
+        "total_additions": 0.041167,
+        "total_deletions": 0.019001,
+        "avg_pr_size": 0.009676,
+        "reviews_given": 0.002304,
+        "review_comments": 0.006494,
+        "approvals_given": 0.0,
+        "unique_prs_reviewed": 0.003344,
+        "bug_fix_prs": 0.769231,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.806452,
+        "chore_prs": 0.061538
+      },
+      "category_scores": {
+        "collaboration": 0.003045,
+        "ownership": 0.44469,
+        "output": 0.282681
+      },
+      "composite_score": 0.233411
+    },
+    {
+      "login": "meikelmosby",
+      "raw_metrics": {
+        "prs_merged": 65,
+        "total_additions": 13247,
+        "total_deletions": 6048,
+        "avg_pr_size": 296.85,
+        "reviews_given": 132,
+        "review_comments": 11,
+        "approvals_given": 105,
+        "unique_prs_reviewed": 104,
+        "bug_fix_prs": 21,
+        "issues_involved": 7,
+        "unique_areas_touched": 12,
+        "chore_prs": 17
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.292683,
+        "total_additions": 0.082596,
+        "total_deletions": 0.071068,
+        "avg_pr_size": 0.05566,
+        "reviews_given": 0.304147,
+        "review_comments": 0.071429,
+        "approvals_given": 0.371025,
+        "unique_prs_reviewed": 0.347826,
+        "bug_fix_prs": 0.146853,
+        "issues_involved": 0.25,
+        "unique_areas_touched": 0.387097,
+        "chore_prs": 0.261538
+      },
+      "category_scores": {
+        "collaboration": 0.286267,
+        "ownership": 0.255638,
+        "output": 0.15605
+      },
+      "composite_score": 0.231502
+    },
+    {
+      "login": "arthurdedeus",
+      "raw_metrics": {
+        "prs_merged": 71,
+        "total_additions": 11095,
+        "total_deletions": 2518,
+        "avg_pr_size": 191.73,
+        "reviews_given": 45,
+        "review_comments": 19,
+        "approvals_given": 36,
+        "unique_prs_reviewed": 38,
+        "bug_fix_prs": 20,
+        "issues_involved": 28,
+        "unique_areas_touched": 11,
+        "chore_prs": 19
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.321951,
+        "total_additions": 0.069161,
+        "total_deletions": 0.029485,
+        "avg_pr_size": 0.035488,
+        "reviews_given": 0.103687,
+        "review_comments": 0.123377,
+        "approvals_given": 0.127208,
+        "unique_prs_reviewed": 0.12709,
+        "bug_fix_prs": 0.13986,
+        "issues_involved": 1.0,
+        "unique_areas_touched": 0.354839,
+        "chore_prs": 0.292308
+      },
+      "category_scores": {
+        "collaboration": 0.12052,
+        "ownership": 0.439129,
+        "output": 0.154524
+      },
+      "composite_score": 0.228004
+    },
+    {
+      "login": "havenbarnes",
+      "raw_metrics": {
+        "prs_merged": 64,
+        "total_additions": 10544,
+        "total_deletions": 4980,
+        "avg_pr_size": 242.56,
+        "reviews_given": 136,
+        "review_comments": 25,
+        "approvals_given": 75,
+        "unique_prs_reviewed": 77,
+        "bug_fix_prs": 30,
+        "issues_involved": 12,
+        "unique_areas_touched": 6,
+        "chore_prs": 13
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.287805,
+        "total_additions": 0.065721,
+        "total_deletions": 0.058487,
+        "avg_pr_size": 0.045242,
+        "reviews_given": 0.313364,
+        "review_comments": 0.162338,
+        "approvals_given": 0.265018,
+        "unique_prs_reviewed": 0.257525,
+        "bug_fix_prs": 0.20979,
+        "issues_involved": 0.428571,
+        "unique_areas_touched": 0.193548,
+        "chore_prs": 0.2
+      },
+      "category_scores": {
+        "collaboration": 0.253946,
+        "ownership": 0.258467,
+        "output": 0.146664
+      },
+      "composite_score": 0.217754
+    },
+    {
+      "login": "Twixes",
+      "raw_metrics": {
+        "prs_merged": 59,
+        "total_additions": 88591,
+        "total_deletions": 3125,
+        "avg_pr_size": 1554.51,
+        "reviews_given": 56,
+        "review_comments": 32,
+        "approvals_given": 39,
+        "unique_prs_reviewed": 45,
+        "bug_fix_prs": 25,
+        "issues_involved": 2,
+        "unique_areas_touched": 10,
+        "chore_prs": 16
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.263415,
+        "total_additions": 0.552976,
+        "total_deletions": 0.036635,
+        "avg_pr_size": 0.297003,
+        "reviews_given": 0.129032,
+        "review_comments": 0.207792,
+        "approvals_given": 0.137809,
+        "unique_prs_reviewed": 0.150502,
+        "bug_fix_prs": 0.174825,
+        "issues_involved": 0.071429,
+        "unique_areas_touched": 0.322581,
+        "chore_prs": 0.246154
+      },
+      "category_scores": {
+        "collaboration": 0.154054,
+        "ownership": 0.200181,
+        "output": 0.295927
+      },
+      "composite_score": 0.217548
+    },
+    {
+      "login": "yasen-posthog",
+      "raw_metrics": {
+        "prs_merged": 72,
+        "total_additions": 17115,
+        "total_deletions": 5372,
+        "avg_pr_size": 312.32,
+        "reviews_given": 84,
+        "review_comments": 36,
+        "approvals_given": 65,
+        "unique_prs_reviewed": 66,
+        "bug_fix_prs": 35,
+        "issues_involved": 0,
+        "unique_areas_touched": 18,
+        "chore_prs": 10
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.326829,
+        "total_additions": 0.106744,
+        "total_deletions": 0.063104,
+        "avg_pr_size": 0.058629,
+        "reviews_given": 0.193548,
+        "review_comments": 0.233766,
+        "approvals_given": 0.229682,
+        "unique_prs_reviewed": 0.220736,
+        "bug_fix_prs": 0.244755,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.580645,
+        "chore_prs": 0.153846
+      },
+      "category_scores": {
+        "collaboration": 0.218334,
+        "ownership": 0.249357,
+        "output": 0.173574
+      },
+      "composite_score": 0.211975
+    },
+    {
+      "login": "nickbest-ph",
+      "raw_metrics": {
+        "prs_merged": 43,
+        "total_additions": 24853,
+        "total_deletions": 3991,
+        "avg_pr_size": 670.79,
+        "reviews_given": 88,
+        "review_comments": 10,
+        "approvals_given": 79,
+        "unique_prs_reviewed": 79,
+        "bug_fix_prs": 13,
+        "issues_involved": 0,
+        "unique_areas_touched": 24,
+        "chore_prs": 17
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.185366,
+        "total_additions": 0.155053,
+        "total_deletions": 0.046837,
+        "avg_pr_size": 0.127419,
+        "reviews_given": 0.202765,
+        "review_comments": 0.064935,
+        "approvals_given": 0.279152,
+        "unique_prs_reviewed": 0.264214,
+        "bug_fix_prs": 0.090909,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.774194,
+        "chore_prs": 0.261538
+      },
+      "category_scores": {
+        "collaboration": 0.211984,
+        "ownership": 0.273129,
+        "output": 0.146685
+      },
+      "composite_score": 0.207473
+    },
+    {
+      "login": "Gilbert09",
+      "raw_metrics": {
+        "prs_merged": 51,
+        "total_additions": 8290,
+        "total_deletions": 2475,
+        "avg_pr_size": 211.08,
+        "reviews_given": 143,
+        "review_comments": 28,
+        "approvals_given": 118,
+        "unique_prs_reviewed": 119,
+        "bug_fix_prs": 18,
+        "issues_involved": 0,
+        "unique_areas_touched": 6,
+        "chore_prs": 20
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.22439,
+        "total_additions": 0.051649,
+        "total_deletions": 0.028978,
+        "avg_pr_size": 0.039201,
+        "reviews_given": 0.329493,
+        "review_comments": 0.181818,
+        "approvals_given": 0.416961,
+        "unique_prs_reviewed": 0.397993,
+        "bug_fix_prs": 0.125874,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.193548,
+        "chore_prs": 0.307692
+      },
+      "category_scores": {
+        "collaboration": 0.341427,
+        "ownership": 0.147688,
+        "output": 0.114122
+      },
+      "composite_score": 0.203749
+    },
+    {
+      "login": "tatoalo",
+      "raw_metrics": {
+        "prs_merged": 49,
+        "total_additions": 21312,
+        "total_deletions": 3648,
+        "avg_pr_size": 509.39,
+        "reviews_given": 110,
+        "review_comments": 48,
+        "approvals_given": 92,
+        "unique_prs_reviewed": 94,
+        "bug_fix_prs": 20,
+        "issues_involved": 0,
+        "unique_areas_touched": 11,
+        "chore_prs": 8
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.214634,
+        "total_additions": 0.132947,
+        "total_deletions": 0.042796,
+        "avg_pr_size": 0.096446,
+        "reviews_given": 0.253456,
+        "review_comments": 0.311688,
+        "approvals_given": 0.325088,
+        "unique_prs_reviewed": 0.314381,
+        "bug_fix_prs": 0.13986,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.354839,
+        "chore_prs": 0.123077
+      },
+      "category_scores": {
+        "collaboration": 0.300753,
+        "ownership": 0.155283,
+        "output": 0.143831
+      },
+      "composite_score": 0.202189
+    },
+    {
+      "login": "lricoy",
+      "raw_metrics": {
+        "prs_merged": 45,
+        "total_additions": 5302,
+        "total_deletions": 872,
+        "avg_pr_size": 137.2,
+        "reviews_given": 129,
+        "review_comments": 35,
+        "approvals_given": 123,
+        "unique_prs_reviewed": 121,
+        "bug_fix_prs": 13,
+        "issues_involved": 1,
+        "unique_areas_touched": 11,
+        "chore_prs": 11
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.195122,
+        "total_additions": 0.032995,
+        "total_deletions": 0.010095,
+        "avg_pr_size": 0.025024,
+        "reviews_given": 0.297235,
+        "review_comments": 0.227273,
+        "approvals_given": 0.434629,
+        "unique_prs_reviewed": 0.404682,
+        "bug_fix_prs": 0.090909,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.354839,
+        "chore_prs": 0.169231
+      },
+      "category_scores": {
+        "collaboration": 0.348328,
+        "ownership": 0.158757,
+        "output": 0.092766
+      },
+      "composite_score": 0.20201
+    },
+    {
+      "login": "kappa90",
+      "raw_metrics": {
+        "prs_merged": 69,
+        "total_additions": 17139,
+        "total_deletions": 9913,
+        "avg_pr_size": 392.06,
+        "reviews_given": 100,
+        "review_comments": 26,
+        "approvals_given": 74,
+        "unique_prs_reviewed": 75,
+        "bug_fix_prs": 45,
+        "issues_involved": 4,
+        "unique_areas_touched": 4,
+        "chore_prs": 7
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.312195,
+        "total_additions": 0.106894,
+        "total_deletions": 0.116597,
+        "avg_pr_size": 0.073931,
+        "reviews_given": 0.230415,
+        "review_comments": 0.168831,
+        "approvals_given": 0.261484,
+        "unique_prs_reviewed": 0.250836,
+        "bug_fix_prs": 0.314685,
+        "issues_involved": 0.142857,
+        "unique_areas_touched": 0.129032,
+        "chore_prs": 0.107692
+      },
+      "category_scores": {
+        "collaboration": 0.231459,
+        "ownership": 0.183916,
+        "output": 0.178448
+      },
+      "composite_score": 0.198642
+    },
+    {
+      "login": "jonmcwest",
+      "raw_metrics": {
+        "prs_merged": 112,
+        "total_additions": 14820,
+        "total_deletions": 4976,
+        "avg_pr_size": 176.75,
+        "reviews_given": 45,
+        "review_comments": 5,
+        "approvals_given": 41,
+        "unique_prs_reviewed": 40,
+        "bug_fix_prs": 24,
+        "issues_involved": 0,
+        "unique_areas_touched": 21,
+        "chore_prs": 2
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.521951,
+        "total_additions": 0.092417,
+        "total_deletions": 0.05844,
+        "avg_pr_size": 0.032613,
+        "reviews_given": 0.103687,
+        "review_comments": 0.032468,
+        "approvals_given": 0.144876,
+        "unique_prs_reviewed": 0.133779,
+        "bug_fix_prs": 0.167832,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.677419,
+        "chore_prs": 0.030769
+      },
+      "category_scores": {
+        "collaboration": 0.108213,
+        "ownership": 0.225858,
+        "output": 0.239902
+      },
+      "composite_score": 0.189598
+    },
+    {
+      "login": "TueHaulund",
+      "raw_metrics": {
+        "prs_merged": 54,
+        "total_additions": 20600,
+        "total_deletions": 8863,
+        "avg_pr_size": 545.61,
+        "reviews_given": 96,
+        "review_comments": 20,
+        "approvals_given": 83,
+        "unique_prs_reviewed": 82,
+        "bug_fix_prs": 27,
+        "issues_involved": 0,
+        "unique_areas_touched": 7,
+        "chore_prs": 11
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.239024,
+        "total_additions": 0.128502,
+        "total_deletions": 0.104228,
+        "avg_pr_size": 0.103397,
+        "reviews_given": 0.221198,
+        "review_comments": 0.12987,
+        "approvals_given": 0.293286,
+        "unique_prs_reviewed": 0.274247,
+        "bug_fix_prs": 0.188811,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.225806,
+        "chore_prs": 0.169231
+      },
+      "category_scores": {
+        "collaboration": 0.235917,
+        "ownership": 0.146941,
+        "output": 0.161497
+      },
+      "composite_score": 0.183177
+    },
+    {
+      "login": "pl",
+      "raw_metrics": {
+        "prs_merged": 61,
+        "total_additions": 36199,
+        "total_deletions": 11111,
+        "avg_pr_size": 775.57,
+        "reviews_given": 104,
+        "review_comments": 30,
+        "approvals_given": 66,
+        "unique_prs_reviewed": 68,
+        "bug_fix_prs": 19,
+        "issues_involved": 1,
+        "unique_areas_touched": 2,
+        "chore_prs": 8
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.273171,
+        "total_additions": 0.225888,
+        "total_deletions": 0.130709,
+        "avg_pr_size": 0.147526,
+        "reviews_given": 0.239631,
+        "review_comments": 0.194805,
+        "approvals_given": 0.233216,
+        "unique_prs_reviewed": 0.227425,
+        "bug_fix_prs": 0.132867,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.064516,
+        "chore_prs": 0.123077
+      },
+      "category_scores": {
+        "collaboration": 0.225111,
+        "ownership": 0.089533,
+        "output": 0.207857
+      },
+      "composite_score": 0.178399
+    },
+    {
+      "login": "frankh",
+      "raw_metrics": {
+        "prs_merged": 51,
+        "total_additions": 11974,
+        "total_deletions": 3045,
+        "avg_pr_size": 294.49,
+        "reviews_given": 121,
+        "review_comments": 6,
+        "approvals_given": 115,
+        "unique_prs_reviewed": 114,
+        "bug_fix_prs": 18,
+        "issues_involved": 1,
+        "unique_areas_touched": 6,
+        "chore_prs": 2
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.22439,
+        "total_additions": 0.074649,
+        "total_deletions": 0.035693,
+        "avg_pr_size": 0.055207,
+        "reviews_given": 0.278802,
+        "review_comments": 0.038961,
+        "approvals_given": 0.40636,
+        "unique_prs_reviewed": 0.381271,
+        "bug_fix_prs": 0.125874,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.193548,
+        "chore_prs": 0.030769
+      },
+      "category_scores": {
+        "collaboration": 0.29221,
+        "ownership": 0.101232,
+        "output": 0.123845
+      },
+      "composite_score": 0.175989
+    },
+    {
+      "login": "andrewjmcgehee",
+      "raw_metrics": {
+        "prs_merged": 60,
+        "total_additions": 17492,
+        "total_deletions": 9628,
+        "avg_pr_size": 452.0,
+        "reviews_given": 87,
+        "review_comments": 10,
+        "approvals_given": 65,
+        "unique_prs_reviewed": 65,
+        "bug_fix_prs": 34,
+        "issues_involved": 1,
+        "unique_areas_touched": 9,
+        "chore_prs": 8
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.268293,
+        "total_additions": 0.109098,
+        "total_deletions": 0.113239,
+        "avg_pr_size": 0.085433,
+        "reviews_given": 0.200461,
+        "review_comments": 0.064935,
+        "approvals_given": 0.229682,
+        "unique_prs_reviewed": 0.217391,
+        "bug_fix_prs": 0.237762,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.290323,
+        "chore_prs": 0.123077
+      },
+      "category_scores": {
+        "collaboration": 0.185125,
+        "ownership": 0.177453,
+        "output": 0.164907
+      },
+      "composite_score": 0.175747
+    },
+    {
+      "login": "VojtechBartos",
+      "raw_metrics": {
+        "prs_merged": 9,
+        "total_additions": 27772,
+        "total_deletions": 19189,
+        "avg_pr_size": 5217.89,
+        "reviews_given": 10,
+        "review_comments": 2,
+        "approvals_given": 10,
+        "unique_prs_reviewed": 10,
+        "bug_fix_prs": 2,
+        "issues_involved": 0,
+        "unique_areas_touched": 5,
+        "chore_prs": 4
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.019512,
+        "total_additions": 0.173277,
+        "total_deletions": 0.225866,
+        "avg_pr_size": 1.0,
+        "reviews_given": 0.023041,
+        "review_comments": 0.012987,
+        "approvals_given": 0.035336,
+        "unique_prs_reviewed": 0.033445,
+        "bug_fix_prs": 0.013986,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.16129,
+        "chore_prs": 0.061538
+      },
+      "category_scores": {
+        "collaboration": 0.027131,
+        "ownership": 0.056826,
+        "output": 0.406383
+      },
+      "composite_score": 0.168778
+    },
+    {
+      "login": "georgemunyoro",
+      "raw_metrics": {
+        "prs_merged": 20,
+        "total_additions": 29806,
+        "total_deletions": 24314,
+        "avg_pr_size": 2706.0,
+        "reviews_given": 68,
+        "review_comments": 6,
+        "approvals_given": 63,
+        "unique_prs_reviewed": 63,
+        "bug_fix_prs": 9,
+        "issues_involved": 0,
+        "unique_areas_touched": 3,
+        "chore_prs": 2
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.073171,
+        "total_additions": 0.185976,
+        "total_deletions": 0.286238,
+        "avg_pr_size": 0.517972,
+        "reviews_given": 0.156682,
+        "review_comments": 0.038961,
+        "approvals_given": 0.222615,
+        "unique_prs_reviewed": 0.210702,
+        "bug_fix_prs": 0.062937,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.096774,
+        "chore_prs": 0.030769
+      },
+      "category_scores": {
+        "collaboration": 0.165231,
+        "ownership": 0.049228,
+        "output": 0.267079
+      },
+      "composite_score": 0.166077
+    },
+    {
+      "login": "robbie-c",
+      "raw_metrics": {
+        "prs_merged": 70,
+        "total_additions": 18568,
+        "total_deletions": 6463,
+        "avg_pr_size": 357.59,
+        "reviews_given": 62,
+        "review_comments": 12,
+        "approvals_given": 38,
+        "unique_prs_reviewed": 41,
+        "bug_fix_prs": 9,
+        "issues_involved": 6,
+        "unique_areas_touched": 12,
+        "chore_prs": 8
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.317073,
+        "total_additions": 0.115816,
+        "total_deletions": 0.075956,
+        "avg_pr_size": 0.067316,
+        "reviews_given": 0.142857,
+        "review_comments": 0.077922,
+        "approvals_given": 0.134276,
+        "unique_prs_reviewed": 0.137124,
+        "bug_fix_prs": 0.062937,
+        "issues_involved": 0.214286,
+        "unique_areas_touched": 0.387097,
+        "chore_prs": 0.123077
+      },
+      "category_scores": {
+        "collaboration": 0.126147,
+        "ownership": 0.193842,
+        "output": 0.175358
+      },
+      "composite_score": 0.163679
+    },
+    {
+      "login": "veryayskiy",
+      "raw_metrics": {
+        "prs_merged": 86,
+        "total_additions": 19858,
+        "total_deletions": 2937,
+        "avg_pr_size": 265.06,
+        "reviews_given": 62,
+        "review_comments": 3,
+        "approvals_given": 58,
+        "unique_prs_reviewed": 59,
+        "bug_fix_prs": 17,
+        "issues_involved": 0,
+        "unique_areas_touched": 1,
+        "chore_prs": 30
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.395122,
+        "total_additions": 0.123869,
+        "total_deletions": 0.034421,
+        "avg_pr_size": 0.04956,
+        "reviews_given": 0.142857,
+        "review_comments": 0.019481,
+        "approvals_given": 0.204947,
+        "unique_prs_reviewed": 0.197324,
+        "bug_fix_prs": 0.118881,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.461538
+      },
+      "category_scores": {
+        "collaboration": 0.149663,
+        "ownership": 0.136036,
+        "output": 0.197417
+      },
+      "composite_score": 0.162289
+    },
+    {
+      "login": "ReeceJones",
+      "raw_metrics": {
+        "prs_merged": 74,
+        "total_additions": 19744,
+        "total_deletions": 4193,
+        "avg_pr_size": 323.47,
+        "reviews_given": 71,
+        "review_comments": 15,
+        "approvals_given": 54,
+        "unique_prs_reviewed": 57,
+        "bug_fix_prs": 38,
+        "issues_involved": 0,
+        "unique_areas_touched": 2,
+        "chore_prs": 13
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.336585,
+        "total_additions": 0.123158,
+        "total_deletions": 0.049216,
+        "avg_pr_size": 0.060768,
+        "reviews_given": 0.163594,
+        "review_comments": 0.097403,
+        "approvals_given": 0.190813,
+        "unique_prs_reviewed": 0.190635,
+        "bug_fix_prs": 0.265734,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.064516,
+        "chore_prs": 0.2
+      },
+      "category_scores": {
+        "collaboration": 0.165264,
+        "ownership": 0.135849,
+        "output": 0.179298
+      },
+      "composite_score": 0.161351
+    },
+    {
+      "login": "gustavohstrassburger",
+      "raw_metrics": {
+        "prs_merged": 61,
+        "total_additions": 11539,
+        "total_deletions": 1827,
+        "avg_pr_size": 219.11,
+        "reviews_given": 63,
+        "review_comments": 27,
+        "approvals_given": 58,
+        "unique_prs_reviewed": 58,
+        "bug_fix_prs": 34,
+        "issues_involved": 1,
+        "unique_areas_touched": 9,
+        "chore_prs": 3
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.273171,
+        "total_additions": 0.071933,
+        "total_deletions": 0.021345,
+        "avg_pr_size": 0.040742,
+        "reviews_given": 0.145161,
+        "review_comments": 0.175325,
+        "approvals_given": 0.204947,
+        "unique_prs_reviewed": 0.19398,
+        "bug_fix_prs": 0.237762,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.290323,
+        "chore_prs": 0.046154
+      },
+      "category_scores": {
+        "collaboration": 0.180238,
+        "ownership": 0.162069,
+        "output": 0.136453
+      },
+      "composite_score": 0.159463
+    },
+    {
+      "login": "andehen",
+      "raw_metrics": {
+        "prs_merged": 45,
+        "total_additions": 6147,
+        "total_deletions": 4127,
+        "avg_pr_size": 228.31,
+        "reviews_given": 84,
+        "review_comments": 51,
+        "approvals_given": 69,
+        "unique_prs_reviewed": 71,
+        "bug_fix_prs": 23,
+        "issues_involved": 0,
+        "unique_areas_touched": 5,
+        "chore_prs": 8
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.195122,
+        "total_additions": 0.03827,
+        "total_deletions": 0.048439,
+        "avg_pr_size": 0.042507,
+        "reviews_given": 0.193548,
+        "review_comments": 0.331169,
+        "approvals_given": 0.243816,
+        "unique_prs_reviewed": 0.237458,
+        "bug_fix_prs": 0.160839,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.16129,
+        "chore_prs": 0.123077
+      },
+      "category_scores": {
+        "collaboration": 0.246494,
+        "ownership": 0.11319,
+        "output": 0.103511
+      },
+      "composite_score": 0.156459
+    },
+    {
+      "login": "carlos-marchal-ph",
+      "raw_metrics": {
+        "prs_merged": 44,
+        "total_additions": 11488,
+        "total_deletions": 3103,
+        "avg_pr_size": 331.61,
+        "reviews_given": 94,
+        "review_comments": 27,
+        "approvals_given": 86,
+        "unique_prs_reviewed": 86,
+        "bug_fix_prs": 25,
+        "issues_involved": 1,
+        "unique_areas_touched": 1,
+        "chore_prs": 5
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.190244,
+        "total_additions": 0.071615,
+        "total_deletions": 0.036376,
+        "avg_pr_size": 0.062331,
+        "reviews_given": 0.21659,
+        "review_comments": 0.175325,
+        "approvals_given": 0.303887,
+        "unique_prs_reviewed": 0.287625,
+        "bug_fix_prs": 0.174825,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.076923
+      },
+      "category_scores": {
+        "collaboration": 0.250659,
+        "ownership": 0.084825,
+        "output": 0.112293
+      },
+      "composite_score": 0.152481
+    },
+    {
+      "login": "jurajmajerik",
+      "raw_metrics": {
+        "prs_merged": 47,
+        "total_additions": 14063,
+        "total_deletions": 2843,
+        "avg_pr_size": 359.7,
+        "reviews_given": 67,
+        "review_comments": 33,
+        "approvals_given": 58,
+        "unique_prs_reviewed": 58,
+        "bug_fix_prs": 13,
+        "issues_involved": 2,
+        "unique_areas_touched": 5,
+        "chore_prs": 17
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.204878,
+        "total_additions": 0.08769,
+        "total_deletions": 0.033313,
+        "avg_pr_size": 0.067721,
+        "reviews_given": 0.154378,
+        "review_comments": 0.214286,
+        "approvals_given": 0.204947,
+        "unique_prs_reviewed": 0.19398,
+        "bug_fix_prs": 0.090909,
+        "issues_involved": 0.071429,
+        "unique_areas_touched": 0.16129,
+        "chore_prs": 0.261538
+      },
+      "category_scores": {
+        "collaboration": 0.190334,
+        "ownership": 0.13776,
+        "output": 0.122138
+      },
+      "composite_score": 0.150693
+    },
+    {
+      "login": "jabahamondes",
+      "raw_metrics": {
+        "prs_merged": 49,
+        "total_additions": 11100,
+        "total_deletions": 3577,
+        "avg_pr_size": 299.53,
+        "reviews_given": 67,
+        "review_comments": 18,
+        "approvals_given": 56,
+        "unique_prs_reviewed": 57,
+        "bug_fix_prs": 18,
+        "issues_involved": 0,
+        "unique_areas_touched": 15,
+        "chore_prs": 1
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.214634,
+        "total_additions": 0.069192,
+        "total_deletions": 0.04196,
+        "avg_pr_size": 0.056174,
+        "reviews_given": 0.154378,
+        "review_comments": 0.116883,
+        "approvals_given": 0.19788,
+        "unique_prs_reviewed": 0.190635,
+        "bug_fix_prs": 0.125874,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.483871,
+        "chore_prs": 0.015385
+      },
+      "category_scores": {
+        "collaboration": 0.168269,
+        "ownership": 0.161807,
+        "output": 0.120089
+      },
+      "composite_score": 0.149467
+    },
+    {
+      "login": "gesh",
+      "raw_metrics": {
+        "prs_merged": 32,
+        "total_additions": 5359,
+        "total_deletions": 861,
+        "avg_pr_size": 194.38,
+        "reviews_given": 79,
+        "review_comments": 34,
+        "approvals_given": 69,
+        "unique_prs_reviewed": 72,
+        "bug_fix_prs": 18,
+        "issues_involved": 6,
+        "unique_areas_touched": 6,
+        "chore_prs": 1
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.131707,
+        "total_additions": 0.033351,
+        "total_deletions": 0.009966,
+        "avg_pr_size": 0.035996,
+        "reviews_given": 0.182028,
+        "review_comments": 0.220779,
+        "approvals_given": 0.243816,
+        "unique_prs_reviewed": 0.240803,
+        "bug_fix_prs": 0.125874,
+        "issues_involved": 0.214286,
+        "unique_areas_touched": 0.193548,
+        "chore_prs": 0.015385
+      },
+      "category_scores": {
+        "collaboration": 0.222707,
+        "ownership": 0.142798,
+        "output": 0.071281
+      },
+      "composite_score": 0.145735
+    },
+    {
+      "login": "rossgray",
+      "raw_metrics": {
+        "prs_merged": 38,
+        "total_additions": 10092,
+        "total_deletions": 6747,
+        "avg_pr_size": 443.13,
+        "reviews_given": 91,
+        "review_comments": 33,
+        "approvals_given": 54,
+        "unique_prs_reviewed": 55,
+        "bug_fix_prs": 15,
+        "issues_involved": 2,
+        "unique_areas_touched": 4,
+        "chore_prs": 13
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.160976,
+        "total_additions": 0.062899,
+        "total_deletions": 0.079302,
+        "avg_pr_size": 0.083731,
+        "reviews_given": 0.209677,
+        "review_comments": 0.214286,
+        "approvals_given": 0.190813,
+        "unique_prs_reviewed": 0.183946,
+        "bug_fix_prs": 0.104895,
+        "issues_involved": 0.071429,
+        "unique_areas_touched": 0.129032,
+        "chore_prs": 0.2
+      },
+      "category_scores": {
+        "collaboration": 0.19782,
+        "ownership": 0.121584,
+        "output": 0.111061
+      },
+      "composite_score": 0.144584
+    },
+    {
+      "login": "oliverb123",
+      "raw_metrics": {
+        "prs_merged": 49,
+        "total_additions": 11512,
+        "total_deletions": 4155,
+        "avg_pr_size": 319.73,
+        "reviews_given": 76,
+        "review_comments": 9,
+        "approvals_given": 66,
+        "unique_prs_reviewed": 68,
+        "bug_fix_prs": 31,
+        "issues_involved": 1,
+        "unique_areas_touched": 5,
+        "chore_prs": 3
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.214634,
+        "total_additions": 0.071764,
+        "total_deletions": 0.048768,
+        "avg_pr_size": 0.060051,
+        "reviews_given": 0.175115,
+        "review_comments": 0.058442,
+        "approvals_given": 0.233216,
+        "unique_prs_reviewed": 0.227425,
+        "bug_fix_prs": 0.216783,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.16129,
+        "chore_prs": 0.046154
+      },
+      "category_scores": {
+        "collaboration": 0.181709,
+        "ownership": 0.123517,
+        "output": 0.122513
+      },
+      "composite_score": 0.143533
+    },
+    {
+      "login": "lucasheriques",
+      "raw_metrics": {
+        "prs_merged": 27,
+        "total_additions": 8377,
+        "total_deletions": 1706,
+        "avg_pr_size": 373.44,
+        "reviews_given": 104,
+        "review_comments": 21,
+        "approvals_given": 101,
+        "unique_prs_reviewed": 100,
+        "bug_fix_prs": 8,
+        "issues_involved": 0,
+        "unique_areas_touched": 4,
+        "chore_prs": 5
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.107317,
+        "total_additions": 0.052192,
+        "total_deletions": 0.01992,
+        "avg_pr_size": 0.070358,
+        "reviews_given": 0.239631,
+        "review_comments": 0.136364,
+        "approvals_given": 0.35689,
+        "unique_prs_reviewed": 0.334448,
+        "bug_fix_prs": 0.055944,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.129032,
+        "chore_prs": 0.076923
+      },
+      "category_scores": {
+        "collaboration": 0.275615,
+        "ownership": 0.064426,
+        "output": 0.077373
+      },
+      "composite_score": 0.142874
+    },
+    {
+      "login": "hpouillot",
+      "raw_metrics": {
+        "prs_merged": 49,
+        "total_additions": 10684,
+        "total_deletions": 5619,
+        "avg_pr_size": 332.71,
+        "reviews_given": 68,
+        "review_comments": 12,
+        "approvals_given": 48,
+        "unique_prs_reviewed": 51,
+        "bug_fix_prs": 22,
+        "issues_involved": 0,
+        "unique_areas_touched": 7,
+        "chore_prs": 15
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.214634,
+        "total_additions": 0.066595,
+        "total_deletions": 0.066014,
+        "avg_pr_size": 0.062542,
+        "reviews_given": 0.156682,
+        "review_comments": 0.077922,
+        "approvals_given": 0.169611,
+        "unique_prs_reviewed": 0.170569,
+        "bug_fix_prs": 0.153846,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.225806,
+        "chore_prs": 0.230769
+      },
+      "category_scores": {
+        "collaboration": 0.148376,
+        "ownership": 0.148759,
+        "output": 0.124334
+      },
+      "composite_score": 0.140076
+    },
+    {
+      "login": "MattBro",
+      "raw_metrics": {
+        "prs_merged": 65,
+        "total_additions": 11954,
+        "total_deletions": 883,
+        "avg_pr_size": 197.49,
+        "reviews_given": 81,
+        "review_comments": 6,
+        "approvals_given": 44,
+        "unique_prs_reviewed": 47,
+        "bug_fix_prs": 34,
+        "issues_involved": 0,
+        "unique_areas_touched": 6,
+        "chore_prs": 3
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.292683,
+        "total_additions": 0.074524,
+        "total_deletions": 0.010225,
+        "avg_pr_size": 0.036593,
+        "reviews_given": 0.186636,
+        "review_comments": 0.038961,
+        "approvals_given": 0.155477,
+        "unique_prs_reviewed": 0.157191,
+        "bug_fix_prs": 0.237762,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.193548,
+        "chore_prs": 0.046154
+      },
+      "category_scores": {
+        "collaboration": 0.140563,
+        "ownership": 0.128946,
+        "output": 0.142082
+      },
+      "composite_score": 0.13761
+    },
+    {
+      "login": "ablaszkiewicz",
+      "raw_metrics": {
+        "prs_merged": 64,
+        "total_additions": 6324,
+        "total_deletions": 2479,
+        "avg_pr_size": 137.55,
+        "reviews_given": 83,
+        "review_comments": 14,
+        "approvals_given": 74,
+        "unique_prs_reviewed": 75,
+        "bug_fix_prs": 26,
+        "issues_involved": 0,
+        "unique_areas_touched": 0,
+        "chore_prs": 0
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.287805,
+        "total_additions": 0.039375,
+        "total_deletions": 0.029025,
+        "avg_pr_size": 0.025091,
+        "reviews_given": 0.191244,
+        "review_comments": 0.090909,
+        "approvals_given": 0.261484,
+        "unique_prs_reviewed": 0.250836,
+        "bug_fix_prs": 0.181818,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.0,
+        "chore_prs": 0.0
+      },
+      "category_scores": {
+        "collaboration": 0.206082,
+        "ownership": 0.054545,
+        "output": 0.132713
+      },
+      "composite_score": 0.134942
+    },
+    {
+      "login": "a-lider",
+      "raw_metrics": {
+        "prs_merged": 34,
+        "total_additions": 4257,
+        "total_deletions": 2310,
+        "avg_pr_size": 193.15,
+        "reviews_given": 84,
+        "review_comments": 42,
+        "approvals_given": 68,
+        "unique_prs_reviewed": 74,
+        "bug_fix_prs": 16,
+        "issues_involved": 0,
+        "unique_areas_touched": 3,
+        "chore_prs": 6
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.141463,
+        "total_additions": 0.026471,
+        "total_deletions": 0.027035,
+        "avg_pr_size": 0.03576,
+        "reviews_given": 0.193548,
+        "review_comments": 0.272727,
+        "approvals_given": 0.240283,
+        "unique_prs_reviewed": 0.247492,
+        "bug_fix_prs": 0.111888,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.096774,
+        "chore_prs": 0.092308
+      },
+      "category_scores": {
+        "collaboration": 0.237611,
+        "ownership": 0.076221,
+        "output": 0.075775
+      },
+      "composite_score": 0.132551
+    },
+    {
+      "login": "fasyy612",
+      "raw_metrics": {
+        "prs_merged": 49,
+        "total_additions": 6066,
+        "total_deletions": 5675,
+        "avg_pr_size": 239.61,
+        "reviews_given": 62,
+        "review_comments": 44,
+        "approvals_given": 48,
+        "unique_prs_reviewed": 48,
+        "bug_fix_prs": 33,
+        "issues_involved": 1,
+        "unique_areas_touched": 0,
+        "chore_prs": 2
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.214634,
+        "total_additions": 0.037764,
+        "total_deletions": 0.066674,
+        "avg_pr_size": 0.044676,
+        "reviews_given": 0.142857,
+        "review_comments": 0.285714,
+        "approvals_given": 0.169611,
+        "unique_prs_reviewed": 0.160535,
+        "bug_fix_prs": 0.230769,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.0,
+        "chore_prs": 0.030769
+      },
+      "category_scores": {
+        "collaboration": 0.182967,
+        "ownership": 0.084313,
+        "output": 0.113822
+      },
+      "composite_score": 0.12917
+    },
+    {
+      "login": "tomasfarias",
+      "raw_metrics": {
+        "prs_merged": 47,
+        "total_additions": 2631,
+        "total_deletions": 637,
+        "avg_pr_size": 69.53,
+        "reviews_given": 122,
+        "review_comments": 37,
+        "approvals_given": 30,
+        "unique_prs_reviewed": 29,
+        "bug_fix_prs": 27,
+        "issues_involved": 0,
+        "unique_areas_touched": 3,
+        "chore_prs": 9
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.204878,
+        "total_additions": 0.016319,
+        "total_deletions": 0.007327,
+        "avg_pr_size": 0.012038,
+        "reviews_given": 0.281106,
+        "review_comments": 0.24026,
+        "approvals_given": 0.106007,
+        "unique_prs_reviewed": 0.09699,
+        "bug_fix_prs": 0.188811,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.096774,
+        "chore_prs": 0.138462
+      },
+      "category_scores": {
+        "collaboration": 0.173476,
+        "ownership": 0.108529,
+        "output": 0.089345
+      },
+      "composite_score": 0.124546
+    },
+    {
+      "login": "rodrigoi",
+      "raw_metrics": {
+        "prs_merged": 47,
+        "total_additions": 12249,
+        "total_deletions": 5005,
+        "avg_pr_size": 367.11,
+        "reviews_given": 68,
+        "review_comments": 44,
+        "approvals_given": 43,
+        "unique_prs_reviewed": 45,
+        "bug_fix_prs": 18,
+        "issues_involved": 0,
+        "unique_areas_touched": 1,
+        "chore_prs": 5
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.204878,
+        "total_additions": 0.076366,
+        "total_deletions": 0.058781,
+        "avg_pr_size": 0.069143,
+        "reviews_given": 0.156682,
+        "review_comments": 0.285714,
+        "approvals_given": 0.151943,
+        "unique_prs_reviewed": 0.150502,
+        "bug_fix_prs": 0.125874,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.076923
+      },
+      "category_scores": {
+        "collaboration": 0.179378,
+        "ownership": 0.061211,
+        "output": 0.123484
+      },
+      "composite_score": 0.124365
+    },
+    {
+      "login": "andyzzhao",
+      "raw_metrics": {
+        "prs_merged": 37,
+        "total_additions": 5202,
+        "total_deletions": 2447,
+        "avg_pr_size": 206.73,
+        "reviews_given": 75,
+        "review_comments": 2,
+        "approvals_given": 56,
+        "unique_prs_reviewed": 54,
+        "bug_fix_prs": 23,
+        "issues_involved": 2,
+        "unique_areas_touched": 6,
+        "chore_prs": 7
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.156098,
+        "total_additions": 0.03237,
+        "total_deletions": 0.028649,
+        "avg_pr_size": 0.038366,
+        "reviews_given": 0.172811,
+        "review_comments": 0.012987,
+        "approvals_given": 0.19788,
+        "unique_prs_reviewed": 0.180602,
+        "bug_fix_prs": 0.160839,
+        "issues_involved": 0.071429,
+        "unique_areas_touched": 0.193548,
+        "chore_prs": 0.107692
+      },
+      "category_scores": {
+        "collaboration": 0.148587,
+        "ownership": 0.136034,
+        "output": 0.083588
+      },
+      "composite_score": 0.122071
+    },
+    {
+      "login": "ordehi",
+      "raw_metrics": {
+        "prs_merged": 33,
+        "total_additions": 4565,
+        "total_deletions": 689,
+        "avg_pr_size": 159.21,
+        "reviews_given": 1,
+        "review_comments": 0,
+        "approvals_given": 1,
+        "unique_prs_reviewed": 1,
+        "bug_fix_prs": 24,
+        "issues_involved": 13,
+        "unique_areas_touched": 16,
+        "chore_prs": 3
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.136585,
+        "total_additions": 0.028394,
+        "total_deletions": 0.00794,
+        "avg_pr_size": 0.029247,
+        "reviews_given": 0.002304,
+        "review_comments": 0.0,
+        "approvals_given": 0.003534,
+        "unique_prs_reviewed": 0.003344,
+        "bug_fix_prs": 0.167832,
+        "issues_involved": 0.464286,
+        "unique_areas_touched": 0.516129,
+        "chore_prs": 0.046154
+      },
+      "category_scores": {
+        "collaboration": 0.002453,
+        "ownership": 0.304684,
+        "output": 0.069924
+      },
+      "composite_score": 0.116737
+    },
+    {
+      "login": "sortafreel",
+      "raw_metrics": {
+        "prs_merged": 26,
+        "total_additions": 9481,
+        "total_deletions": 1326,
+        "avg_pr_size": 415.65,
+        "reviews_given": 111,
+        "review_comments": 34,
+        "approvals_given": 49,
+        "unique_prs_reviewed": 71,
+        "bug_fix_prs": 9,
+        "issues_involved": 0,
+        "unique_areas_touched": 1,
+        "chore_prs": 2
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.102439,
+        "total_additions": 0.059085,
+        "total_deletions": 0.015443,
+        "avg_pr_size": 0.078458,
+        "reviews_given": 0.25576,
+        "review_comments": 0.220779,
+        "approvals_given": 0.173145,
+        "unique_prs_reviewed": 0.237458,
+        "bug_fix_prs": 0.062937,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.030769
+      },
+      "category_scores": {
+        "collaboration": 0.225835,
+        "ownership": 0.033099,
+        "output": 0.078843
+      },
+      "composite_score": 0.116567
+    },
+    {
+      "login": "jordanm-posthog",
+      "raw_metrics": {
+        "prs_merged": 54,
+        "total_additions": 11692,
+        "total_deletions": 3130,
+        "avg_pr_size": 274.48,
+        "reviews_given": 35,
+        "review_comments": 5,
+        "approvals_given": 29,
+        "unique_prs_reviewed": 29,
+        "bug_fix_prs": 14,
+        "issues_involved": 0,
+        "unique_areas_touched": 4,
+        "chore_prs": 26
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.239024,
+        "total_additions": 0.072888,
+        "total_deletions": 0.036694,
+        "avg_pr_size": 0.051367,
+        "reviews_given": 0.080645,
+        "review_comments": 0.032468,
+        "approvals_given": 0.102473,
+        "unique_prs_reviewed": 0.09699,
+        "bug_fix_prs": 0.097902,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.129032,
+        "chore_prs": 0.4
+      },
+      "category_scores": {
+        "collaboration": 0.081096,
+        "ownership": 0.141629,
+        "output": 0.128191
+      },
+      "composite_score": 0.115739
+    },
+    {
+      "login": "fuziontech",
+      "raw_metrics": {
+        "prs_merged": 41,
+        "total_additions": 5465,
+        "total_deletions": 1476,
+        "avg_pr_size": 169.29,
+        "reviews_given": 17,
+        "review_comments": 6,
+        "approvals_given": 14,
+        "unique_prs_reviewed": 14,
+        "bug_fix_prs": 28,
+        "issues_involved": 11,
+        "unique_areas_touched": 8,
+        "chore_prs": 3
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.17561,
+        "total_additions": 0.034012,
+        "total_deletions": 0.01721,
+        "avg_pr_size": 0.031182,
+        "reviews_given": 0.039171,
+        "review_comments": 0.038961,
+        "approvals_given": 0.04947,
+        "unique_prs_reviewed": 0.046823,
+        "bug_fix_prs": 0.195804,
+        "issues_involved": 0.392857,
+        "unique_areas_touched": 0.258065,
+        "chore_prs": 0.046154
+      },
+      "category_scores": {
+        "collaboration": 0.043867,
+        "ownership": 0.230703,
+        "output": 0.087981
+      },
+      "composite_score": 0.115358
+    },
+    {
+      "login": "fercgomes",
+      "raw_metrics": {
+        "prs_merged": 30,
+        "total_additions": 5626,
+        "total_deletions": 4947,
+        "avg_pr_size": 352.43,
+        "reviews_given": 82,
+        "review_comments": 17,
+        "approvals_given": 51,
+        "unique_prs_reviewed": 51,
+        "bug_fix_prs": 17,
+        "issues_involved": 2,
+        "unique_areas_touched": 4,
+        "chore_prs": 1
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.121951,
+        "total_additions": 0.035018,
+        "total_deletions": 0.058098,
+        "avg_pr_size": 0.066326,
+        "reviews_given": 0.18894,
+        "review_comments": 0.11039,
+        "approvals_given": 0.180212,
+        "unique_prs_reviewed": 0.170569,
+        "bug_fix_prs": 0.118881,
+        "issues_involved": 0.071429,
+        "unique_areas_touched": 0.129032,
+        "chore_prs": 0.015385
+      },
+      "category_scores": {
+        "collaboration": 0.165055,
+        "ownership": 0.088857,
+        "output": 0.083057
+      },
+      "composite_score": 0.113496
+    },
+    {
+      "login": "estefaniarabadan",
+      "raw_metrics": {
+        "prs_merged": 30,
+        "total_additions": 3605,
+        "total_deletions": 1770,
+        "avg_pr_size": 179.17,
+        "reviews_given": 89,
+        "review_comments": 6,
+        "approvals_given": 49,
+        "unique_prs_reviewed": 50,
+        "bug_fix_prs": 12,
+        "issues_involved": 0,
+        "unique_areas_touched": 6,
+        "chore_prs": 13
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.121951,
+        "total_additions": 0.0224,
+        "total_deletions": 0.020674,
+        "avg_pr_size": 0.033078,
+        "reviews_given": 0.205069,
+        "review_comments": 0.038961,
+        "approvals_given": 0.173145,
+        "unique_prs_reviewed": 0.167224,
+        "bug_fix_prs": 0.083916,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.193548,
+        "chore_prs": 0.2
+      },
+      "category_scores": {
+        "collaboration": 0.152217,
+        "ownership": 0.113562,
+        "output": 0.065785
+      },
+      "composite_score": 0.110369
+    },
+    {
+      "login": "scheduled-actions-posthog",
+      "raw_metrics": {
+        "prs_merged": 65,
+        "total_additions": 3483,
+        "total_deletions": 3540,
+        "avg_pr_size": 108.05,
+        "reviews_given": 0,
+        "review_comments": 0,
+        "approvals_given": 0,
+        "unique_prs_reviewed": 0,
+        "bug_fix_prs": 0,
+        "issues_involved": 0,
+        "unique_areas_touched": 1,
+        "chore_prs": 65
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.292683,
+        "total_additions": 0.021639,
+        "total_deletions": 0.041524,
+        "avg_pr_size": 0.01943,
+        "reviews_given": 0.0,
+        "review_comments": 0.0,
+        "approvals_given": 0.0,
+        "unique_prs_reviewed": 0.0,
+        "bug_fix_prs": 0.0,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 1.0
+      },
+      "category_scores": {
+        "collaboration": 0.0,
+        "ownership": 0.208065,
+        "output": 0.131272
+      },
+      "composite_score": 0.108365
+    },
+    {
+      "login": "anirudhpillai",
+      "raw_metrics": {
+        "prs_merged": 36,
+        "total_additions": 5071,
+        "total_deletions": 1631,
+        "avg_pr_size": 186.17,
+        "reviews_given": 44,
+        "review_comments": 12,
+        "approvals_given": 36,
+        "unique_prs_reviewed": 37,
+        "bug_fix_prs": 8,
+        "issues_involved": 0,
+        "unique_areas_touched": 13,
+        "chore_prs": 5
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.15122,
+        "total_additions": 0.031553,
+        "total_deletions": 0.019036,
+        "avg_pr_size": 0.034421,
+        "reviews_given": 0.101382,
+        "review_comments": 0.077922,
+        "approvals_given": 0.127208,
+        "unique_prs_reviewed": 0.123746,
+        "bug_fix_prs": 0.055944,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.419355,
+        "chore_prs": 0.076923
+      },
+      "category_scores": {
+        "collaboration": 0.109683,
+        "ownership": 0.137007,
+        "output": 0.079172
+      },
+      "composite_score": 0.107201
+    },
+    {
+      "login": "orian",
+      "raw_metrics": {
+        "prs_merged": 30,
+        "total_additions": 1739,
+        "total_deletions": 773,
+        "avg_pr_size": 83.73,
+        "reviews_given": 88,
+        "review_comments": 14,
+        "approvals_given": 53,
+        "unique_prs_reviewed": 61,
+        "bug_fix_prs": 3,
+        "issues_involved": 0,
+        "unique_areas_touched": 6,
+        "chore_prs": 9
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.121951,
+        "total_additions": 0.010751,
+        "total_deletions": 0.008929,
+        "avg_pr_size": 0.014763,
+        "reviews_given": 0.202765,
+        "review_comments": 0.090909,
+        "approvals_given": 0.187279,
+        "unique_prs_reviewed": 0.204013,
+        "bug_fix_prs": 0.020979,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.193548,
+        "chore_prs": 0.138462
+      },
+      "category_scores": {
+        "collaboration": 0.177733,
+        "ownership": 0.082373,
+        "output": 0.056453
+      },
+      "composite_score": 0.106677
+    },
+    {
+      "login": "lmenezes",
+      "raw_metrics": {
+        "prs_merged": 25,
+        "total_additions": 8041,
+        "total_deletions": 6524,
+        "avg_pr_size": 582.6,
+        "reviews_given": 48,
+        "review_comments": 44,
+        "approvals_given": 48,
+        "unique_prs_reviewed": 47,
+        "bug_fix_prs": 6,
+        "issues_involved": 0,
+        "unique_areas_touched": 2,
+        "chore_prs": 4
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.097561,
+        "total_additions": 0.050095,
+        "total_deletions": 0.076675,
+        "avg_pr_size": 0.110495,
+        "reviews_given": 0.110599,
+        "review_comments": 0.285714,
+        "approvals_given": 0.169611,
+        "unique_prs_reviewed": 0.157191,
+        "bug_fix_prs": 0.041958,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.064516,
+        "chore_prs": 0.061538
+      },
+      "category_scores": {
+        "collaboration": 0.173732,
+        "ownership": 0.041024,
+        "output": 0.092879
+      },
+      "composite_score": 0.105621
+    },
+    {
+      "login": "mp-hog",
+      "raw_metrics": {
+        "prs_merged": 50,
+        "total_additions": 7172,
+        "total_deletions": 5298,
+        "avg_pr_size": 249.4,
+        "reviews_given": 28,
+        "review_comments": 24,
+        "approvals_given": 26,
+        "unique_prs_reviewed": 27,
+        "bug_fix_prs": 18,
+        "issues_involved": 0,
+        "unique_areas_touched": 6,
+        "chore_prs": 5
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.219512,
+        "total_additions": 0.044669,
+        "total_deletions": 0.062233,
+        "avg_pr_size": 0.046555,
+        "reviews_given": 0.064516,
+        "review_comments": 0.155844,
+        "approvals_given": 0.091873,
+        "unique_prs_reviewed": 0.090301,
+        "bug_fix_prs": 0.125874,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.193548,
+        "chore_prs": 0.076923
+      },
+      "category_scores": {
+        "collaboration": 0.097278,
+        "ownership": 0.101534,
+        "output": 0.117023
+      },
+      "composite_score": 0.105466
+    },
+    {
+      "login": "benjackwhite",
+      "raw_metrics": {
+        "prs_merged": 36,
+        "total_additions": 7361,
+        "total_deletions": 15912,
+        "avg_pr_size": 646.47,
+        "reviews_given": 38,
+        "review_comments": 7,
+        "approvals_given": 31,
+        "unique_prs_reviewed": 33,
+        "bug_fix_prs": 8,
+        "issues_involved": 2,
+        "unique_areas_touched": 3,
+        "chore_prs": 8
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.15122,
+        "total_additions": 0.045849,
+        "total_deletions": 0.187264,
+        "avg_pr_size": 0.122752,
+        "reviews_given": 0.087558,
+        "review_comments": 0.045455,
+        "approvals_given": 0.109541,
+        "unique_prs_reviewed": 0.110368,
+        "bug_fix_prs": 0.055944,
+        "issues_involved": 0.071429,
+        "unique_areas_touched": 0.096774,
+        "chore_prs": 0.123077
+      },
+      "category_scores": {
+        "collaboration": 0.091518,
+        "ownership": 0.083449,
+        "output": 0.129055
+      },
+      "composite_score": 0.102235
+    },
+    {
+      "login": "luke-belton",
+      "raw_metrics": {
+        "prs_merged": 42,
+        "total_additions": 4582,
+        "total_deletions": 1265,
+        "avg_pr_size": 139.21,
+        "reviews_given": 11,
+        "review_comments": 0,
+        "approvals_given": 6,
+        "unique_prs_reviewed": 6,
+        "bug_fix_prs": 28,
+        "issues_involved": 9,
+        "unique_areas_touched": 5,
+        "chore_prs": 8
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.180488,
+        "total_additions": 0.0285,
+        "total_deletions": 0.014725,
+        "avg_pr_size": 0.025409,
+        "reviews_given": 0.025346,
+        "review_comments": 0.0,
+        "approvals_given": 0.021201,
+        "unique_prs_reviewed": 0.020067,
+        "bug_fix_prs": 0.195804,
+        "issues_involved": 0.321429,
+        "unique_areas_touched": 0.16129,
+        "chore_prs": 0.123077
+      },
+      "category_scores": {
+        "collaboration": 0.0176,
+        "ownership": 0.204036,
+        "output": 0.086836
+      },
+      "composite_score": 0.097763
+    },
+    {
+      "login": "dustinbyrne",
+      "raw_metrics": {
+        "prs_merged": 15,
+        "total_additions": 2037,
+        "total_deletions": 613,
+        "avg_pr_size": 176.67,
+        "reviews_given": 45,
+        "review_comments": 15,
+        "approvals_given": 44,
+        "unique_prs_reviewed": 44,
+        "bug_fix_prs": 10,
+        "issues_involved": 8,
+        "unique_areas_touched": 3,
+        "chore_prs": 1
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.04878,
+        "total_additions": 0.012611,
+        "total_deletions": 0.007044,
+        "avg_pr_size": 0.032598,
+        "reviews_given": 0.103687,
+        "review_comments": 0.097403,
+        "approvals_given": 0.155477,
+        "unique_prs_reviewed": 0.147157,
+        "bug_fix_prs": 0.06993,
+        "issues_involved": 0.285714,
+        "unique_areas_touched": 0.096774,
+        "chore_prs": 0.015385
+      },
+      "category_scores": {
+        "collaboration": 0.128003,
+        "ownership": 0.119678,
+        "output": 0.033517
+      },
+      "composite_score": 0.092435
+    },
+    {
+      "login": "richardsolomou",
+      "raw_metrics": {
+        "prs_merged": 32,
+        "total_additions": 12366,
+        "total_deletions": 5138,
+        "avg_pr_size": 547.0,
+        "reviews_given": 34,
+        "review_comments": 1,
+        "approvals_given": 34,
+        "unique_prs_reviewed": 34,
+        "bug_fix_prs": 13,
+        "issues_involved": 1,
+        "unique_areas_touched": 4,
+        "chore_prs": 1
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.131707,
+        "total_additions": 0.077096,
+        "total_deletions": 0.060348,
+        "avg_pr_size": 0.103664,
+        "reviews_given": 0.078341,
+        "review_comments": 0.006494,
+        "approvals_given": 0.120141,
+        "unique_prs_reviewed": 0.113712,
+        "bug_fix_prs": 0.090909,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.129032,
+        "chore_prs": 0.015385
+      },
+      "category_scores": {
+        "collaboration": 0.084711,
+        "ownership": 0.071536,
+        "output": 0.106564
+      },
+      "composite_score": 0.088407
+    },
+    {
+      "login": "odin-posthog",
+      "raw_metrics": {
+        "prs_merged": 25,
+        "total_additions": 9346,
+        "total_deletions": 1699,
+        "avg_pr_size": 441.8,
+        "reviews_given": 37,
+        "review_comments": 15,
+        "approvals_given": 29,
+        "unique_prs_reviewed": 31,
+        "bug_fix_prs": 5,
+        "issues_involved": 2,
+        "unique_areas_touched": 4,
+        "chore_prs": 6
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.097561,
+        "total_additions": 0.058242,
+        "total_deletions": 0.019837,
+        "avg_pr_size": 0.083476,
+        "reviews_given": 0.085253,
+        "review_comments": 0.097403,
+        "approvals_given": 0.102473,
+        "unique_prs_reviewed": 0.103679,
+        "bug_fix_prs": 0.034965,
+        "issues_involved": 0.071429,
+        "unique_areas_touched": 0.129032,
+        "chore_prs": 0.092308
+      },
+      "category_scores": {
+        "collaboration": 0.097576,
+        "ownership": 0.079066,
+        "output": 0.078961
+      },
+      "composite_score": 0.085508
+    },
+    {
+      "login": "MarconLP",
+      "raw_metrics": {
+        "prs_merged": 22,
+        "total_additions": 11512,
+        "total_deletions": 2814,
+        "avg_pr_size": 651.18,
+        "reviews_given": 29,
+        "review_comments": 4,
+        "approvals_given": 29,
+        "unique_prs_reviewed": 29,
+        "bug_fix_prs": 10,
+        "issues_involved": 6,
+        "unique_areas_touched": 1,
+        "chore_prs": 0
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.082927,
+        "total_additions": 0.071764,
+        "total_deletions": 0.032972,
+        "avg_pr_size": 0.123656,
+        "reviews_given": 0.06682,
+        "review_comments": 0.025974,
+        "approvals_given": 0.102473,
+        "unique_prs_reviewed": 0.09699,
+        "bug_fix_prs": 0.06993,
+        "issues_involved": 0.214286,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.0
+      },
+      "category_scores": {
+        "collaboration": 0.076341,
+        "ownership": 0.082615,
+        "output": 0.090512
+      },
+      "composite_score": 0.083183
+    },
+    {
+      "login": "ksvat",
+      "raw_metrics": {
+        "prs_merged": 34,
+        "total_additions": 2897,
+        "total_deletions": 991,
+        "avg_pr_size": 114.35,
+        "reviews_given": 46,
+        "review_comments": 15,
+        "approvals_given": 33,
+        "unique_prs_reviewed": 36,
+        "bug_fix_prs": 13,
+        "issues_involved": 0,
+        "unique_areas_touched": 5,
+        "chore_prs": 0
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.141463,
+        "total_additions": 0.01798,
+        "total_deletions": 0.011497,
+        "avg_pr_size": 0.020639,
+        "reviews_given": 0.105991,
+        "review_comments": 0.097403,
+        "approvals_given": 0.116608,
+        "unique_prs_reviewed": 0.120401,
+        "bug_fix_prs": 0.090909,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.16129,
+        "chore_prs": 0.0
+      },
+      "category_scores": {
+        "collaboration": 0.11144,
+        "ownership": 0.067595,
+        "output": 0.067656
+      },
+      "composite_score": 0.082962
+    },
+    {
+      "login": "gantoine",
+      "raw_metrics": {
+        "prs_merged": 10,
+        "total_additions": 5340,
+        "total_deletions": 3782,
+        "avg_pr_size": 912.2,
+        "reviews_given": 47,
+        "review_comments": 11,
+        "approvals_given": 41,
+        "unique_prs_reviewed": 43,
+        "bug_fix_prs": 4,
+        "issues_involved": 0,
+        "unique_areas_touched": 2,
+        "chore_prs": 4
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.02439,
+        "total_additions": 0.033232,
+        "total_deletions": 0.044375,
+        "avg_pr_size": 0.173745,
+        "reviews_given": 0.108295,
+        "review_comments": 0.071429,
+        "approvals_given": 0.144876,
+        "unique_prs_reviewed": 0.143813,
+        "bug_fix_prs": 0.027972,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.064516,
+        "chore_prs": 0.061538
+      },
+      "category_scores": {
+        "collaboration": 0.120669,
+        "ownership": 0.036828,
+        "output": 0.079989
+      },
+      "composite_score": 0.081279
+    },
+    {
+      "login": "clr182",
+      "raw_metrics": {
+        "prs_merged": 16,
+        "total_additions": 10130,
+        "total_deletions": 7688,
+        "avg_pr_size": 1113.62,
+        "reviews_given": 9,
+        "review_comments": 5,
+        "approvals_given": 8,
+        "unique_prs_reviewed": 8,
+        "bug_fix_prs": 8,
+        "issues_involved": 10,
+        "unique_areas_touched": 0,
+        "chore_prs": 0
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.053659,
+        "total_additions": 0.063136,
+        "total_deletions": 0.090386,
+        "avg_pr_size": 0.212397,
+        "reviews_given": 0.020737,
+        "review_comments": 0.032468,
+        "approvals_given": 0.028269,
+        "unique_prs_reviewed": 0.026756,
+        "bug_fix_prs": 0.055944,
+        "issues_involved": 0.357143,
+        "unique_areas_touched": 0.0,
+        "chore_prs": 0.0
+      },
+      "category_scores": {
+        "collaboration": 0.026696,
+        "ownership": 0.106069,
+        "output": 0.114312
+      },
+      "composite_score": 0.081173
+    },
+    {
+      "login": "matheus-vb",
+      "raw_metrics": {
+        "prs_merged": 18,
+        "total_additions": 4307,
+        "total_deletions": 2952,
+        "avg_pr_size": 403.28,
+        "reviews_given": 22,
+        "review_comments": 10,
+        "approvals_given": 21,
+        "unique_prs_reviewed": 21,
+        "bug_fix_prs": 3,
+        "issues_involved": 9,
+        "unique_areas_touched": 1,
+        "chore_prs": 6
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.063415,
+        "total_additions": 0.026783,
+        "total_deletions": 0.034597,
+        "avg_pr_size": 0.076084,
+        "reviews_given": 0.050691,
+        "review_comments": 0.064935,
+        "approvals_given": 0.074205,
+        "unique_prs_reviewed": 0.070234,
+        "bug_fix_prs": 0.020979,
+        "issues_involved": 0.321429,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.092308
+      },
+      "category_scores": {
+        "collaboration": 0.065083,
+        "ownership": 0.113177,
+        "output": 0.059473
+      },
+      "composite_score": 0.077548
+    },
+    {
+      "login": "patricio-posthog",
+      "raw_metrics": {
+        "prs_merged": 14,
+        "total_additions": 2372,
+        "total_deletions": 324,
+        "avg_pr_size": 192.57,
+        "reviews_given": 39,
+        "review_comments": 12,
+        "approvals_given": 38,
+        "unique_prs_reviewed": 38,
+        "bug_fix_prs": 0,
+        "issues_involved": 3,
+        "unique_areas_touched": 2,
+        "chore_prs": 11
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.043902,
+        "total_additions": 0.014702,
+        "total_deletions": 0.00364,
+        "avg_pr_size": 0.035649,
+        "reviews_given": 0.089862,
+        "review_comments": 0.077922,
+        "approvals_given": 0.134276,
+        "unique_prs_reviewed": 0.12709,
+        "bug_fix_prs": 0.0,
+        "issues_involved": 0.107143,
+        "unique_areas_touched": 0.064516,
+        "chore_prs": 0.169231
+      },
+      "category_scores": {
+        "collaboration": 0.109387,
+        "ownership": 0.076761,
+        "output": 0.032607
+      },
+      "composite_score": 0.072726
+    },
+    {
+      "login": "posthog-js-upgrader",
+      "raw_metrics": {
+        "prs_merged": 42,
+        "total_additions": 2729,
+        "total_deletions": 3542,
+        "avg_pr_size": 149.31,
+        "reviews_given": 0,
+        "review_comments": 0,
+        "approvals_given": 0,
+        "unique_prs_reviewed": 0,
+        "bug_fix_prs": 0,
+        "issues_involved": 0,
+        "unique_areas_touched": 1,
+        "chore_prs": 42
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.180488,
+        "total_additions": 0.016931,
+        "total_deletions": 0.041547,
+        "avg_pr_size": 0.027347,
+        "reviews_given": 0.0,
+        "review_comments": 0.0,
+        "approvals_given": 0.0,
+        "unique_prs_reviewed": 0.0,
+        "bug_fix_prs": 0.0,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.646154
+      },
+      "category_scores": {
+        "collaboration": 0.0,
+        "ownership": 0.137295,
+        "output": 0.088461
+      },
+      "composite_score": 0.07215
+    },
+    {
+      "login": "MattPua",
+      "raw_metrics": {
+        "prs_merged": 32,
+        "total_additions": 1357,
+        "total_deletions": 590,
+        "avg_pr_size": 60.84,
+        "reviews_given": 11,
+        "review_comments": 1,
+        "approvals_given": 10,
+        "unique_prs_reviewed": 10,
+        "bug_fix_prs": 10,
+        "issues_involved": 0,
+        "unique_areas_touched": 11,
+        "chore_prs": 5
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.131707,
+        "total_additions": 0.008366,
+        "total_deletions": 0.006773,
+        "avg_pr_size": 0.01037,
+        "reviews_given": 0.025346,
+        "review_comments": 0.006494,
+        "approvals_given": 0.035336,
+        "unique_prs_reviewed": 0.033445,
+        "bug_fix_prs": 0.06993,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.354839,
+        "chore_prs": 0.076923
+      },
+      "category_scores": {
+        "collaboration": 0.026408,
+        "ownership": 0.125073,
+        "output": 0.058245
+      },
+      "composite_score": 0.06715
+    },
+    {
+      "login": "z0br0wn",
+      "raw_metrics": {
+        "prs_merged": 12,
+        "total_additions": 4630,
+        "total_deletions": 1543,
+        "avg_pr_size": 514.42,
+        "reviews_given": 32,
+        "review_comments": 5,
+        "approvals_given": 21,
+        "unique_prs_reviewed": 22,
+        "bug_fix_prs": 1,
+        "issues_involved": 0,
+        "unique_areas_touched": 5,
+        "chore_prs": 9
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.034146,
+        "total_additions": 0.028799,
+        "total_deletions": 0.018,
+        "avg_pr_size": 0.097411,
+        "reviews_given": 0.073733,
+        "review_comments": 0.032468,
+        "approvals_given": 0.074205,
+        "unique_prs_reviewed": 0.073579,
+        "bug_fix_prs": 0.006993,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.16129,
+        "chore_prs": 0.138462
+      },
+      "category_scores": {
+        "collaboration": 0.065521,
+        "ownership": 0.070113,
+        "output": 0.053872
+      },
+      "composite_score": 0.062821
+    },
+    {
+      "login": "EDsCODE",
+      "raw_metrics": {
+        "prs_merged": 13,
+        "total_additions": 1604,
+        "total_deletions": 384,
+        "avg_pr_size": 152.92,
+        "reviews_given": 41,
+        "review_comments": 5,
+        "approvals_given": 35,
+        "unique_prs_reviewed": 37,
+        "bug_fix_prs": 4,
+        "issues_involved": 0,
+        "unique_areas_touched": 4,
+        "chore_prs": 3
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.039024,
+        "total_additions": 0.009908,
+        "total_deletions": 0.004347,
+        "avg_pr_size": 0.02804,
+        "reviews_given": 0.09447,
+        "review_comments": 0.032468,
+        "approvals_given": 0.123675,
+        "unique_prs_reviewed": 0.123746,
+        "bug_fix_prs": 0.027972,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.129032,
+        "chore_prs": 0.046154
+      },
+      "category_scores": {
+        "collaboration": 0.098157,
+        "ownership": 0.04988,
+        "output": 0.027345
+      },
+      "composite_score": 0.05889
+    },
+    {
+      "login": "jonathanlab",
+      "raw_metrics": {
+        "prs_merged": 8,
+        "total_additions": 410,
+        "total_deletions": 152,
+        "avg_pr_size": 70.25,
+        "reviews_given": 47,
+        "review_comments": 4,
+        "approvals_given": 43,
+        "unique_prs_reviewed": 41,
+        "bug_fix_prs": 3,
+        "issues_involved": 1,
+        "unique_areas_touched": 4,
+        "chore_prs": 0
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.014634,
+        "total_additions": 0.002454,
+        "total_deletions": 0.001614,
+        "avg_pr_size": 0.012176,
+        "reviews_given": 0.108295,
+        "review_comments": 0.025974,
+        "approvals_given": 0.151943,
+        "unique_prs_reviewed": 0.137124,
+        "bug_fix_prs": 0.020979,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.129032,
+        "chore_prs": 0.0
+      },
+      "category_scores": {
+        "collaboration": 0.110651,
+        "ownership": 0.04748,
+        "output": 0.010645
+      },
+      "composite_score": 0.056698
+    },
+    {
+      "login": "timgl",
+      "raw_metrics": {
+        "prs_merged": 8,
+        "total_additions": 1075,
+        "total_deletions": 105,
+        "avg_pr_size": 147.5,
+        "reviews_given": 43,
+        "review_comments": 1,
+        "approvals_given": 38,
+        "unique_prs_reviewed": 39,
+        "bug_fix_prs": 2,
+        "issues_involved": 0,
+        "unique_areas_touched": 4,
+        "chore_prs": 3
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.014634,
+        "total_additions": 0.006605,
+        "total_deletions": 0.00106,
+        "avg_pr_size": 0.027,
+        "reviews_given": 0.099078,
+        "review_comments": 0.006494,
+        "approvals_given": 0.134276,
+        "unique_prs_reviewed": 0.130435,
+        "bug_fix_prs": 0.013986,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.129032,
+        "chore_prs": 0.046154
+      },
+      "category_scores": {
+        "collaboration": 0.098576,
+        "ownership": 0.045685,
+        "output": 0.0164
+      },
+      "composite_score": 0.053947
+    },
+    {
+      "login": "gewenyu99",
+      "raw_metrics": {
+        "prs_merged": 7,
+        "total_additions": 6981,
+        "total_deletions": 3114,
+        "avg_pr_size": 1442.14,
+        "reviews_given": 18,
+        "review_comments": 6,
+        "approvals_given": 7,
+        "unique_prs_reviewed": 7,
+        "bug_fix_prs": 1,
+        "issues_involved": 0,
+        "unique_areas_touched": 0,
+        "chore_prs": 4
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.009756,
+        "total_additions": 0.043477,
+        "total_deletions": 0.036506,
+        "avg_pr_size": 0.275439,
+        "reviews_given": 0.041475,
+        "review_comments": 0.038961,
+        "approvals_given": 0.024735,
+        "unique_prs_reviewed": 0.023411,
+        "bug_fix_prs": 0.006993,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.0,
+        "chore_prs": 0.061538
+      },
+      "category_scores": {
+        "collaboration": 0.031302,
+        "ownership": 0.014406,
+        "output": 0.110478
+      },
+      "composite_score": 0.053945
+    },
+    {
+      "login": "pawel-cebula",
+      "raw_metrics": {
+        "prs_merged": 21,
+        "total_additions": 2030,
+        "total_deletions": 564,
+        "avg_pr_size": 123.52,
+        "reviews_given": 31,
+        "review_comments": 15,
+        "approvals_given": 20,
+        "unique_prs_reviewed": 22,
+        "bug_fix_prs": 9,
+        "issues_involved": 0,
+        "unique_areas_touched": 1,
+        "chore_prs": 4
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.078049,
+        "total_additions": 0.012567,
+        "total_deletions": 0.006467,
+        "avg_pr_size": 0.022398,
+        "reviews_given": 0.071429,
+        "review_comments": 0.097403,
+        "approvals_given": 0.070671,
+        "unique_prs_reviewed": 0.073579,
+        "bug_fix_prs": 0.062937,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.061538
+      },
+      "category_scores": {
+        "collaboration": 0.077225,
+        "ownership": 0.039253,
+        "output": 0.041591
+      },
+      "composite_score": 0.053361
+    },
+    {
+      "login": "abhischekt",
+      "raw_metrics": {
+        "prs_merged": 15,
+        "total_additions": 5895,
+        "total_deletions": 731,
+        "avg_pr_size": 441.73,
+        "reviews_given": 24,
+        "review_comments": 6,
+        "approvals_given": 16,
+        "unique_prs_reviewed": 16,
+        "bug_fix_prs": 7,
+        "issues_involved": 0,
+        "unique_areas_touched": 3,
+        "chore_prs": 2
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.04878,
+        "total_additions": 0.036697,
+        "total_deletions": 0.008434,
+        "avg_pr_size": 0.083462,
+        "reviews_given": 0.0553,
+        "review_comments": 0.038961,
+        "approvals_given": 0.056537,
+        "unique_prs_reviewed": 0.053512,
+        "bug_fix_prs": 0.048951,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.096774,
+        "chore_prs": 0.030769
+      },
+      "category_scores": {
+        "collaboration": 0.051654,
+        "ownership": 0.045033,
+        "output": 0.055072
+      },
+      "composite_score": 0.050864
+    },
+    {
+      "login": "christiaan-ph",
+      "raw_metrics": {
+        "prs_merged": 15,
+        "total_additions": 430,
+        "total_deletions": 115,
+        "avg_pr_size": 36.33,
+        "reviews_given": 6,
+        "review_comments": 2,
+        "approvals_given": 1,
+        "unique_prs_reviewed": 3,
+        "bug_fix_prs": 14,
+        "issues_involved": 3,
+        "unique_areas_touched": 9,
+        "chore_prs": 1
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.04878,
+        "total_additions": 0.002578,
+        "total_deletions": 0.001178,
+        "avg_pr_size": 0.005667,
+        "reviews_given": 0.013825,
+        "review_comments": 0.012987,
+        "approvals_given": 0.003534,
+        "unique_prs_reviewed": 0.010033,
+        "bug_fix_prs": 0.097902,
+        "issues_involved": 0.107143,
+        "unique_areas_touched": 0.290323,
+        "chore_prs": 0.015385
+      },
+      "category_scores": {
+        "collaboration": 0.010272,
+        "ownership": 0.131814,
+        "output": 0.022
+      },
+      "composite_score": 0.050839
+    },
+    {
+      "login": "Daesgar",
+      "raw_metrics": {
+        "prs_merged": 16,
+        "total_additions": 947,
+        "total_deletions": 326,
+        "avg_pr_size": 79.56,
+        "reviews_given": 24,
+        "review_comments": 6,
+        "approvals_given": 19,
+        "unique_prs_reviewed": 20,
+        "bug_fix_prs": 6,
+        "issues_involved": 0,
+        "unique_areas_touched": 2,
+        "chore_prs": 10
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.053659,
+        "total_additions": 0.005806,
+        "total_deletions": 0.003664,
+        "avg_pr_size": 0.013963,
+        "reviews_given": 0.0553,
+        "review_comments": 0.038961,
+        "approvals_given": 0.067138,
+        "unique_prs_reviewed": 0.06689,
+        "bug_fix_prs": 0.041958,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.064516,
+        "chore_prs": 0.153846
+      },
+      "category_scores": {
+        "collaboration": 0.058456,
+        "ownership": 0.059486,
+        "output": 0.027588
+      },
+      "composite_score": 0.047961
+    },
+    {
+      "login": "sarahxsanders",
+      "raw_metrics": {
+        "prs_merged": 11,
+        "total_additions": 8329,
+        "total_deletions": 2535,
+        "avg_pr_size": 987.64,
+        "reviews_given": 6,
+        "review_comments": 4,
+        "approvals_given": 6,
+        "unique_prs_reviewed": 5,
+        "bug_fix_prs": 3,
+        "issues_involved": 0,
+        "unique_areas_touched": 2,
+        "chore_prs": 3
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.029268,
+        "total_additions": 0.051893,
+        "total_deletions": 0.029685,
+        "avg_pr_size": 0.188222,
+        "reviews_given": 0.013825,
+        "review_comments": 0.025974,
+        "approvals_given": 0.021201,
+        "unique_prs_reviewed": 0.016722,
+        "bug_fix_prs": 0.020979,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.064516,
+        "chore_prs": 0.046154
+      },
+      "category_scores": {
+        "collaboration": 0.018744,
+        "ownership": 0.031654,
+        "output": 0.088337
+      },
+      "composite_score": 0.046975
+    },
+    {
+      "login": "bciaraldi",
+      "raw_metrics": {
+        "prs_merged": 12,
+        "total_additions": 468,
+        "total_deletions": 162,
+        "avg_pr_size": 52.5,
+        "reviews_given": 17,
+        "review_comments": 0,
+        "approvals_given": 15,
+        "unique_prs_reviewed": 16,
+        "bug_fix_prs": 9,
+        "issues_involved": 0,
+        "unique_areas_touched": 7,
+        "chore_prs": 2
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.034146,
+        "total_additions": 0.002816,
+        "total_deletions": 0.001732,
+        "avg_pr_size": 0.00877,
+        "reviews_given": 0.039171,
+        "review_comments": 0.0,
+        "approvals_given": 0.053004,
+        "unique_prs_reviewed": 0.053512,
+        "bug_fix_prs": 0.062937,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.225806,
+        "chore_prs": 0.030769
+      },
+      "category_scores": {
+        "collaboration": 0.039123,
+        "ownership": 0.081486,
+        "output": 0.017324
+      },
+      "composite_score": 0.044202
+    },
+    {
+      "login": "edwinyjlim",
+      "raw_metrics": {
+        "prs_merged": 9,
+        "total_additions": 3454,
+        "total_deletions": 4375,
+        "avg_pr_size": 869.89,
+        "reviews_given": 14,
+        "review_comments": 4,
+        "approvals_given": 12,
+        "unique_prs_reviewed": 13,
+        "bug_fix_prs": 4,
+        "issues_involved": 0,
+        "unique_areas_touched": 0,
+        "chore_prs": 3
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.019512,
+        "total_additions": 0.021458,
+        "total_deletions": 0.05136,
+        "avg_pr_size": 0.165626,
+        "reviews_given": 0.032258,
+        "review_comments": 0.025974,
+        "approvals_given": 0.042403,
+        "unique_prs_reviewed": 0.043478,
+        "bug_fix_prs": 0.027972,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.0,
+        "chore_prs": 0.046154
+      },
+      "category_scores": {
+        "collaboration": 0.036957,
+        "ownership": 0.017622,
+        "output": 0.074129
+      },
+      "composite_score": 0.044167
+    },
+    {
+      "login": "aspicer",
+      "raw_metrics": {
+        "prs_merged": 15,
+        "total_additions": 5436,
+        "total_deletions": 673,
+        "avg_pr_size": 407.27,
+        "reviews_given": 21,
+        "review_comments": 1,
+        "approvals_given": 12,
+        "unique_prs_reviewed": 13,
+        "bug_fix_prs": 7,
+        "issues_involved": 0,
+        "unique_areas_touched": 1,
+        "chore_prs": 2
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.04878,
+        "total_additions": 0.033831,
+        "total_deletions": 0.007751,
+        "avg_pr_size": 0.07685,
+        "reviews_given": 0.048387,
+        "review_comments": 0.006494,
+        "approvals_given": 0.042403,
+        "unique_prs_reviewed": 0.043478,
+        "bug_fix_prs": 0.048951,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.030769
+      },
+      "category_scores": {
+        "collaboration": 0.037093,
+        "ownership": 0.028904,
+        "output": 0.052259
+      },
+      "composite_score": 0.039944
+    },
+    {
+      "login": "danielxnj",
+      "raw_metrics": {
+        "prs_merged": 12,
+        "total_additions": 1365,
+        "total_deletions": 2039,
+        "avg_pr_size": 283.67,
+        "reviews_given": 5,
+        "review_comments": 0,
+        "approvals_given": 5,
+        "unique_prs_reviewed": 5,
+        "bug_fix_prs": 6,
+        "issues_involved": 4,
+        "unique_areas_touched": 2,
+        "chore_prs": 1
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.034146,
+        "total_additions": 0.008416,
+        "total_deletions": 0.023842,
+        "avg_pr_size": 0.053131,
+        "reviews_given": 0.011521,
+        "review_comments": 0.0,
+        "approvals_given": 0.017668,
+        "unique_prs_reviewed": 0.016722,
+        "bug_fix_prs": 0.041958,
+        "issues_involved": 0.142857,
+        "unique_areas_touched": 0.064516,
+        "chore_prs": 0.015385
+      },
+      "category_scores": {
+        "collaboration": 0.012267,
+        "ownership": 0.067508,
+        "output": 0.035901
+      },
+      "composite_score": 0.037111
+    },
+    {
+      "login": "cvolzer3",
+      "raw_metrics": {
+        "prs_merged": 16,
+        "total_additions": 3035,
+        "total_deletions": 1784,
+        "avg_pr_size": 301.19,
+        "reviews_given": 4,
+        "review_comments": 1,
+        "approvals_given": 4,
+        "unique_prs_reviewed": 4,
+        "bug_fix_prs": 6,
+        "issues_involved": 0,
+        "unique_areas_touched": 2,
+        "chore_prs": 6
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.053659,
+        "total_additions": 0.018842,
+        "total_deletions": 0.020838,
+        "avg_pr_size": 0.056493,
+        "reviews_given": 0.009217,
+        "review_comments": 0.006494,
+        "approvals_given": 0.014134,
+        "unique_prs_reviewed": 0.013378,
+        "bug_fix_prs": 0.041958,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.064516,
+        "chore_prs": 0.092308
+      },
+      "category_scores": {
+        "collaboration": 0.011112,
+        "ownership": 0.047178,
+        "output": 0.046146
+      },
+      "composite_score": 0.034194
+    },
+    {
+      "login": "slshults",
+      "raw_metrics": {
+        "prs_merged": 5,
+        "total_additions": 262,
+        "total_deletions": 49,
+        "avg_pr_size": 62.2,
+        "reviews_given": 10,
+        "review_comments": 6,
+        "approvals_given": 8,
+        "unique_prs_reviewed": 8,
+        "bug_fix_prs": 1,
+        "issues_involved": 6,
+        "unique_areas_touched": 1,
+        "chore_prs": 3
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.0,
+        "total_additions": 0.00153,
+        "total_deletions": 0.000401,
+        "avg_pr_size": 0.010631,
+        "reviews_given": 0.023041,
+        "review_comments": 0.038961,
+        "approvals_given": 0.028269,
+        "unique_prs_reviewed": 0.026756,
+        "bug_fix_prs": 0.006993,
+        "issues_involved": 0.214286,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.046154
+      },
+      "category_scores": {
+        "collaboration": 0.028571,
+        "ownership": 0.072965,
+        "output": 0.00399
+      },
+      "composite_score": 0.033286
+    },
+    {
+      "login": "marandaneto",
+      "raw_metrics": {
+        "prs_merged": 5,
+        "total_additions": 147,
+        "total_deletions": 17,
+        "avg_pr_size": 32.8,
+        "reviews_given": 38,
+        "review_comments": 3,
+        "approvals_given": 17,
+        "unique_prs_reviewed": 19,
+        "bug_fix_prs": 0,
+        "issues_involved": 2,
+        "unique_areas_touched": 0,
+        "chore_prs": 4
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.0,
+        "total_additions": 0.000812,
+        "total_deletions": 2.4e-05,
+        "avg_pr_size": 0.004989,
+        "reviews_given": 0.087558,
+        "review_comments": 0.019481,
+        "approvals_given": 0.060071,
+        "unique_prs_reviewed": 0.063545,
+        "bug_fix_prs": 0.0,
+        "issues_involved": 0.071429,
+        "unique_areas_touched": 0.0,
+        "chore_prs": 0.061538
+      },
+      "category_scores": {
+        "collaboration": 0.060041,
+        "ownership": 0.030165,
+        "output": 0.00187
+      },
+      "composite_score": 0.030718
+    },
+    {
+      "login": "darkopia",
+      "raw_metrics": {
+        "prs_merged": 10,
+        "total_additions": 749,
+        "total_deletions": 55,
+        "avg_pr_size": 80.4,
+        "reviews_given": 6,
+        "review_comments": 0,
+        "approvals_given": 6,
+        "unique_prs_reviewed": 6,
+        "bug_fix_prs": 9,
+        "issues_involved": 5,
+        "unique_areas_touched": 0,
+        "chore_prs": 0
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.02439,
+        "total_additions": 0.00457,
+        "total_deletions": 0.000471,
+        "avg_pr_size": 0.014124,
+        "reviews_given": 0.013825,
+        "review_comments": 0.0,
+        "approvals_given": 0.021201,
+        "unique_prs_reviewed": 0.020067,
+        "bug_fix_prs": 0.062937,
+        "issues_involved": 0.178571,
+        "unique_areas_touched": 0.0,
+        "chore_prs": 0.0
+      },
+      "category_scores": {
+        "collaboration": 0.01472,
+        "ownership": 0.063524,
+        "output": 0.015432
+      },
+      "composite_score": 0.02961
+    },
+    {
+      "login": "raquelmsmith",
+      "raw_metrics": {
+        "prs_merged": 9,
+        "total_additions": 3365,
+        "total_deletions": 1179,
+        "avg_pr_size": 504.89,
+        "reviews_given": 3,
+        "review_comments": 1,
+        "approvals_given": 3,
+        "unique_prs_reviewed": 3,
+        "bug_fix_prs": 0,
+        "issues_involved": 0,
+        "unique_areas_touched": 3,
+        "chore_prs": 3
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.019512,
+        "total_additions": 0.020902,
+        "total_deletions": 0.013712,
+        "avg_pr_size": 0.095583,
+        "reviews_given": 0.006912,
+        "review_comments": 0.006494,
+        "approvals_given": 0.010601,
+        "unique_prs_reviewed": 0.010033,
+        "bug_fix_prs": 0.0,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.096774,
+        "chore_prs": 0.046154
+      },
+      "category_scores": {
+        "collaboration": 0.008659,
+        "ownership": 0.033424,
+        "output": 0.045765
+      },
+      "composite_score": 0.029076
+    },
+    {
+      "login": "daibhin",
+      "raw_metrics": {
+        "prs_merged": 5,
+        "total_additions": 1436,
+        "total_deletions": 1130,
+        "avg_pr_size": 513.2,
+        "reviews_given": 12,
+        "review_comments": 1,
+        "approvals_given": 10,
+        "unique_prs_reviewed": 11,
+        "bug_fix_prs": 0,
+        "issues_involved": 0,
+        "unique_areas_touched": 0,
+        "chore_prs": 5
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.0,
+        "total_additions": 0.008859,
+        "total_deletions": 0.013134,
+        "avg_pr_size": 0.097177,
+        "reviews_given": 0.02765,
+        "review_comments": 0.006494,
+        "approvals_given": 0.035336,
+        "unique_prs_reviewed": 0.036789,
+        "bug_fix_prs": 0.0,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.0,
+        "chore_prs": 0.076923
+      },
+      "category_scores": {
+        "collaboration": 0.028155,
+        "ownership": 0.015385,
+        "output": 0.036654
+      },
+      "composite_score": 0.027299
+    },
+    {
+      "login": "tests-posthog",
+      "raw_metrics": {
+        "prs_merged": 6,
+        "total_additions": 3041,
+        "total_deletions": 414,
+        "avg_pr_size": 575.83,
+        "reviews_given": 0,
+        "review_comments": 0,
+        "approvals_given": 0,
+        "unique_prs_reviewed": 0,
+        "bug_fix_prs": 0,
+        "issues_involved": 0,
+        "unique_areas_touched": 2,
+        "chore_prs": 6
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.004878,
+        "total_additions": 0.018879,
+        "total_deletions": 0.0047,
+        "avg_pr_size": 0.109196,
+        "reviews_given": 0.0,
+        "review_comments": 0.0,
+        "approvals_given": 0.0,
+        "unique_prs_reviewed": 0.0,
+        "bug_fix_prs": 0.0,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.064516,
+        "chore_prs": 0.092308
+      },
+      "category_scores": {
+        "collaboration": 0.0,
+        "ownership": 0.034591,
+        "output": 0.043472
+      },
+      "composite_score": 0.025592
+    },
+    {
+      "login": "k11kirky",
+      "raw_metrics": {
+        "prs_merged": 10,
+        "total_additions": 2830,
+        "total_deletions": 78,
+        "avg_pr_size": 290.8,
+        "reviews_given": 10,
+        "review_comments": 0,
+        "approvals_given": 10,
+        "unique_prs_reviewed": 10,
+        "bug_fix_prs": 3,
+        "issues_involved": 0,
+        "unique_areas_touched": 0,
+        "chore_prs": 0
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.02439,
+        "total_additions": 0.017562,
+        "total_deletions": 0.000742,
+        "avg_pr_size": 0.054499,
+        "reviews_given": 0.023041,
+        "review_comments": 0.0,
+        "approvals_given": 0.035336,
+        "unique_prs_reviewed": 0.033445,
+        "bug_fix_prs": 0.020979,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.0,
+        "chore_prs": 0.0
+      },
+      "category_scores": {
+        "collaboration": 0.024533,
+        "ownership": 0.006294,
+        "output": 0.031539
+      },
+      "composite_score": 0.021513
+    },
+    {
+      "login": "posthog-bot",
+      "raw_metrics": {
+        "prs_merged": 11,
+        "total_additions": 407,
+        "total_deletions": 247,
+        "avg_pr_size": 59.45,
+        "reviews_given": 0,
+        "review_comments": 0,
+        "approvals_given": 0,
+        "unique_prs_reviewed": 0,
+        "bug_fix_prs": 0,
+        "issues_involved": 0,
+        "unique_areas_touched": 1,
+        "chore_prs": 11
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.029268,
+        "total_additions": 0.002435,
+        "total_deletions": 0.002733,
+        "avg_pr_size": 0.010103,
+        "reviews_given": 0.0,
+        "review_comments": 0.0,
+        "approvals_given": 0.0,
+        "unique_prs_reviewed": 0.0,
+        "bug_fix_prs": 0.0,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.169231
+      },
+      "category_scores": {
+        "collaboration": 0.0,
+        "ownership": 0.041911,
+        "output": 0.015882
+      },
+      "composite_score": 0.018132
+    },
+    {
+      "login": "daniloc",
+      "raw_metrics": {
+        "prs_merged": 5,
+        "total_additions": 334,
+        "total_deletions": 357,
+        "avg_pr_size": 138.2,
+        "reviews_given": 6,
+        "review_comments": 4,
+        "approvals_given": 6,
+        "unique_prs_reviewed": 6,
+        "bug_fix_prs": 0,
+        "issues_involved": 0,
+        "unique_areas_touched": 1,
+        "chore_prs": 4
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.0,
+        "total_additions": 0.001979,
+        "total_deletions": 0.004029,
+        "avg_pr_size": 0.025215,
+        "reviews_given": 0.013825,
+        "review_comments": 0.025974,
+        "approvals_given": 0.021201,
+        "unique_prs_reviewed": 0.020067,
+        "bug_fix_prs": 0.0,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.061538
+      },
+      "category_scores": {
+        "collaboration": 0.019915,
+        "ownership": 0.020372,
+        "output": 0.009525
+      },
+      "composite_score": 0.016416
+    },
+    {
+      "login": "charlesvien",
+      "raw_metrics": {
+        "prs_merged": 5,
+        "total_additions": 279,
+        "total_deletions": 69,
+        "avg_pr_size": 69.6,
+        "reviews_given": 8,
+        "review_comments": 2,
+        "approvals_given": 8,
+        "unique_prs_reviewed": 8,
+        "bug_fix_prs": 1,
+        "issues_involved": 0,
+        "unique_areas_touched": 2,
+        "chore_prs": 0
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.0,
+        "total_additions": 0.001636,
+        "total_deletions": 0.000636,
+        "avg_pr_size": 0.012051,
+        "reviews_given": 0.018433,
+        "review_comments": 0.012987,
+        "approvals_given": 0.028269,
+        "unique_prs_reviewed": 0.026756,
+        "bug_fix_prs": 0.006993,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.064516,
+        "chore_prs": 0.0
+      },
+      "category_scores": {
+        "collaboration": 0.022224,
+        "ownership": 0.018227,
+        "output": 0.004527
+      },
+      "composite_score": 0.014831
+    },
+    {
+      "login": "lshaowei18",
+      "raw_metrics": {
+        "prs_merged": 5,
+        "total_additions": 115,
+        "total_deletions": 15,
+        "avg_pr_size": 26.0,
+        "reviews_given": 0,
+        "review_comments": 0,
+        "approvals_given": 0,
+        "unique_prs_reviewed": 0,
+        "bug_fix_prs": 5,
+        "issues_involved": 1,
+        "unique_areas_touched": 3,
+        "chore_prs": 0
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.0,
+        "total_additions": 0.000612,
+        "total_deletions": 0.0,
+        "avg_pr_size": 0.003684,
+        "reviews_given": 0.0,
+        "review_comments": 0.0,
+        "approvals_given": 0.0,
+        "unique_prs_reviewed": 0.0,
+        "bug_fix_prs": 0.034965,
+        "issues_involved": 0.035714,
+        "unique_areas_touched": 0.096774,
+        "chore_prs": 0.0
+      },
+      "category_scores": {
+        "collaboration": 0.0,
+        "ownership": 0.043611,
+        "output": 0.001381
+      },
+      "composite_score": 0.013567
+    },
+    {
+      "login": "clickhouse-sync-posthog",
+      "raw_metrics": {
+        "prs_merged": 5,
+        "total_additions": 17,
+        "total_deletions": 17,
+        "avg_pr_size": 6.8,
+        "reviews_given": 0,
+        "review_comments": 0,
+        "approvals_given": 0,
+        "unique_prs_reviewed": 0,
+        "bug_fix_prs": 0,
+        "issues_involved": 0,
+        "unique_areas_touched": 1,
+        "chore_prs": 5
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.0,
+        "total_additions": 0.0,
+        "total_deletions": 2.4e-05,
+        "avg_pr_size": 0.0,
+        "reviews_given": 0.0,
+        "review_comments": 0.0,
+        "approvals_given": 0.0,
+        "unique_prs_reviewed": 0.0,
+        "bug_fix_prs": 0.0,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.076923
+      },
+      "category_scores": {
+        "collaboration": 0.0,
+        "ownership": 0.023449,
+        "output": 2e-06
+      },
+      "composite_score": 0.007035
+    },
+    {
+      "login": "inkeep",
+      "raw_metrics": {
+        "prs_merged": 7,
+        "total_additions": 138,
+        "total_deletions": 52,
+        "avg_pr_size": 27.14,
+        "reviews_given": 0,
+        "review_comments": 0,
+        "approvals_given": 0,
+        "unique_prs_reviewed": 0,
+        "bug_fix_prs": 0,
+        "issues_involved": 0,
+        "unique_areas_touched": 1,
+        "chore_prs": 0
+      },
+      "normalized_metrics": {
+        "prs_merged": 0.009756,
+        "total_additions": 0.000755,
+        "total_deletions": 0.000436,
+        "avg_pr_size": 0.003903,
+        "reviews_given": 0.0,
+        "review_comments": 0.0,
+        "approvals_given": 0.0,
+        "unique_prs_reviewed": 0.0,
+        "bug_fix_prs": 0.0,
+        "issues_involved": 0.0,
+        "unique_areas_touched": 0.032258,
+        "chore_prs": 0.0
+      },
+      "category_scores": {
+        "collaboration": 0.0,
+        "ownership": 0.008065,
+        "output": 0.005425
+      },
+      "composite_score": 0.004318
+    }
+  ]
+}
